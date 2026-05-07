@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import time
 import csv
 
-# 月ごとの一覧ページURL
 MONTH_URLS = [
     "https://differencee-jewel.com/category/daily-birthstone/daily-birthstone-01/",
     "https://differencee-jewel.com/category/daily-birthstone/daily-birthstone-02/",
@@ -20,12 +19,10 @@ MONTH_URLS = [
 ]
 
 def get_day_urls(month_url):
-    """一覧ページから各日のURLを全ページ分収集する"""
     urls = []
     page = 1
 
     while True:
-        # ページネーションのURL
         if page == 1:
             url = month_url
         else:
@@ -33,14 +30,12 @@ def get_day_urls(month_url):
 
         response = requests.get(url)
 
-        # ページが存在しない場合は終了
         if response.status_code != 200:
             break
 
         soup = BeautifulSoup(response.text, "lxml")
-
-        # 記事リンクを取得（h5タグのaタグ）
         links = soup.select("h5 a")
+
         if not links:
             break
 
@@ -48,25 +43,24 @@ def get_day_urls(month_url):
             urls.append(link["href"])
 
         page += 1
-        time.sleep(1)  # サーバーへの負荷を減らすため1秒待つ
+        time.sleep(1)
 
     return urls
 
 def scrape_birthstone(url):
-    """各日のページから誕生石情報を取得する"""
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "lxml")
 
-    # タイトルから月と日を取得（例：「1月1日〜366日の誕生石〜」）
+    # 月と日を取得
     title = soup.select_one("h1").text
     month = int(title.split("月")[0])
     day = int(title.split("月")[1].split("日")[0])
 
-    # 誕生石名を取得（h3タグ）
+    # 誕生石名を取得
     stone_h3 = soup.select_one("h2.wp-block-heading + h3")
     stone_name = stone_h3.text.strip() if stone_h3 else ""
 
-    # 色を取得（テーブルの2行目）
+    # 色を取得（20文字以上は説明文とみなして空欄）
     tables = soup.select("table")
     color = ""
     if tables:
@@ -74,13 +68,24 @@ def scrape_birthstone(url):
         for row in rows:
             cells = row.select("td")
             if len(cells) == 2 and cells[0].text.strip() == "色":
-                color = cells[1].text.strip()
+                value = cells[1].text.strip()
+                color = value if len(value) <= 20 else ""
+
+    # 石言葉を取得（「石言葉」h5の直後のpタグ）
+    meaning = ""
+    for tag in soup.select("h5, h2"):
+        if "石言葉" in tag.text:
+            next_p = tag.find_next_sibling("p")
+            if next_p:
+                meaning = next_p.text.strip()
+            break
 
     return {
         "month": month,
         "day": day,
         "stone_name": stone_name,
         "color": color,
+        "meaning": meaning,
         "source_note": "differencee-jewel.com",
     }
 
@@ -96,11 +101,11 @@ for month_num, month_url in enumerate(MONTH_URLS, start=1):
         print(f"  スクレイピング中: {url}")
         data = scrape_birthstone(url)
         all_data.append(data)
-        time.sleep(1)  # サーバーへの負荷を減らすため1秒待つ
+        time.sleep(1)
 
 # CSVに保存
 with open("birthstones.csv", "w", newline="", encoding="utf-8") as f:
-    writer = csv.DictWriter(f, fieldnames=["month", "day", "stone_name", "color", "source_note"])
+    writer = csv.DictWriter(f, fieldnames=["month", "day", "stone_name", "color", "meaning", "source_note"])
     writer.writeheader()
     writer.writerows(all_data)
 

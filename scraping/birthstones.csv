@@ -1,367 +1,367 @@
-month,day,stone_name,color,source_note
-1,1,琅玕（ろうかん）,青碧色,differencee-jewel.com
-1,2,ランドスケープアゲート,マンガンや鉄により幻想的な模様を創り出す,differencee-jewel.com
-1,3,トパゾライトガーネット,黄色～山吹色,differencee-jewel.com
-1,4,クリソコーラ原石,不透明な水色・青～青緑,differencee-jewel.com
-1,5,ジルコン,青・赤・無色・緑・紫・黄色・ピンク　など,differencee-jewel.com
-1,6,スターガーネット,赤,differencee-jewel.com
-1,7,アンモライト,光沢のある虹色,differencee-jewel.com
-1,8,グリーントルマリン,深緑～薄緑,differencee-jewel.com
-1,9,グロッシュラーガーネット,緑・オレンジ・無色・ピンク　など,differencee-jewel.com
-1,10,金,黄金色,differencee-jewel.com
-1,11,ヘマタイト原石,黒,differencee-jewel.com
-1,12,ソーダライト,青,differencee-jewel.com
-1,13,ロードナイト,ミルキーピンク・クリアな赤,differencee-jewel.com
-1,14,ライスパール,光沢のある白・黄・黒　など,differencee-jewel.com
-1,15,インド・スタールビー,赤に6条の星,differencee-jewel.com
-1,16,ブルームーンストーン,半透明の乳白色,differencee-jewel.com
-1,17,不透明琥珀,白濁した黄色・黄褐色,differencee-jewel.com
-1,18,ローゼライト,ピンク色,differencee-jewel.com
-1,19,ビックスバイト,赤,differencee-jewel.com
-1,20,スノーフレークオブシディアン,黒に白・グレーの模様,differencee-jewel.com
-1,21,ピーコック・カラー・オパール,半透明の白・または黒の地に虹の色彩,differencee-jewel.com
-1,22,スターベリル,緑・水色・赤など,differencee-jewel.com
-1,23,アレキタイプガーネット,青緑/赤紫・オリーブグリーン/オレンジ　など,differencee-jewel.com
-1,24,ミルキークォーツ,半透明の白,differencee-jewel.com
-1,25,サードオニキス,赤褐色に白の縞模様,differencee-jewel.com
-1,26,パイロープガーネット,赤,differencee-jewel.com
-1,27,アルマンディンガーネット原石（母岩付）,赤,differencee-jewel.com
-1,28,ピンクトパーズ,ピンク,differencee-jewel.com
-1,29,クリスタルクォーツ,無色透明,differencee-jewel.com
-1,31,アレキサンドライトキャッツアイ,青/赤　一条の光,differencee-jewel.com
-1,30,パーティーカラードフローライト,紫・緑・黄色・青・赤など,differencee-jewel.com
-2,1,ウレキサイト,不透明の白・灰色,differencee-jewel.com
-2,2,ドロップパール,光沢のある乳白色,differencee-jewel.com
-2,3,ガーネット結晶,赤・ピンク・オレンジ・緑　など,differencee-jewel.com
-2,4,バイカラーアメシスト,紫/黄・紫/白　など,differencee-jewel.com
-2,5,梅花石,黒っぽい石灰岩に白の模様,differencee-jewel.com
-2,6,スター・グレー・サファイヤ,灰色に4－6条の星,differencee-jewel.com
-2,7,カンゴーム,黒,differencee-jewel.com
-2,8,ルチルレイテッド・クォーツ,水晶に針のようなインクルージョン,differencee-jewel.com
-2,9,レッド・ジャスパー,赤褐色・朱色に網目状の模様,differencee-jewel.com
-2,10,タイガー・アイ・クォーツ（赤）,赤い虎目模様,differencee-jewel.com
-2,11,ウォーターウォーン（さざれ石）,石により異なる,differencee-jewel.com
-2,12,イエロー・スピネル,黄色,differencee-jewel.com
-2,13,バイカラーフローライト,青・紫・白・黄色など二色が混じる,differencee-jewel.com
-2,14,ピンク・オパール,パステルピンク,differencee-jewel.com
-2,15,ピンクジルコン,ピンク,differencee-jewel.com
-2,16,オレンジトルマリン,オレンジ,differencee-jewel.com
-2,17,タイガー・アイアン,茶系の虎目模様,differencee-jewel.com
-2,18,オレンジ・トパーズ,オレンジ,differencee-jewel.com
-2,19,ウォーター・ドロップ・クォーツ,白・紫・褐色　など,differencee-jewel.com
-2,20,サードオニキス,赤褐色に白の縞模様,differencee-jewel.com
-2,21,ラリマー,水色に白の模様,differencee-jewel.com
-2,22,クォーツキャッツアイ,石により異なる,differencee-jewel.com
-2,23,ルビー,赤,differencee-jewel.com
-2,24,ホワイト・パール,白,differencee-jewel.com
-2,25,ファントム・アメシスト,紫,differencee-jewel.com
-2,26,フローライト,紫・緑・黄色・青・赤　など,differencee-jewel.com
-2,27,アメトリン,紫と黄,differencee-jewel.com
-2,28,コーラル（虫食い珊瑚）,赤・ピンク・白,differencee-jewel.com
-2,29,ペリドット,緑,differencee-jewel.com
-3,1,フローライト原石,紫・緑・黄色・青・赤　など,differencee-jewel.com
-3,2,シェル・オパール,虹のような光沢,differencee-jewel.com
-3,3,モルガナイト,ピンク,differencee-jewel.com
-3,4,シルバー,銀色,differencee-jewel.com
-3,5,ブルーサファイア,青,differencee-jewel.com
-3,6,虫入り琥珀,明るい茶色・琥珀色,differencee-jewel.com
-3,7,アクロアイト,無色・わずかな有色,differencee-jewel.com
-3,8,アメシスト原石,紫,differencee-jewel.com
-3,9,シルバーパール,銀色の真珠光沢,differencee-jewel.com
-3,10,スギライト,紫,differencee-jewel.com
-3,11,イネサイト,ピンクや紫,differencee-jewel.com
-3,12,アクアマリン原石,水色,differencee-jewel.com
-3,13,イエローダイヤモンド,黄色,differencee-jewel.com
-3,14,カラーレススピネル,無色聡明,differencee-jewel.com
-3,15,オレンジムーンストーン,オレンジ・オレンジベージュ・ライトブラウン,differencee-jewel.com
-3,16,ローズクォーツ,淡いピンク色,differencee-jewel.com
-3,17,エメラルド,緑,differencee-jewel.com
-3,18,ジェイド,緑色・白・黄緑・黄色・オレンジ・紫・ピンク　など,differencee-jewel.com
-3,19,バイカラークォーツ,紫/黄　褐色/白　など,differencee-jewel.com
-3,20,ドラゴンパール,真珠光沢,differencee-jewel.com
-3,21,カーネリアン,半透明のオレンジ〜赤,differencee-jewel.com
-3,22,ラブラドライト,青や灰色・虹色のラブラドレッセンス,differencee-jewel.com
-3,23,ピクチャージャスパー,不透明な黄土色・茶色の模様,differencee-jewel.com
-3,24,ブラッドストーン,暗緑色に赤いインクルージョン,differencee-jewel.com
-3,25,ピンクジルコン,ピンク,differencee-jewel.com
-3,26,パイライト,黄金色、銀色、真鍮色,differencee-jewel.com
-3,27,レッドジャスパー,不透明な赤褐色・朱色,differencee-jewel.com
-3,28,水晶,透明,differencee-jewel.com
-3,29,アイオライト,青,differencee-jewel.com
-3,31,イエローオーソクレース,透明または半透明の薄い黄色,differencee-jewel.com
-3,30,エンジェル・スキン・コーラル,淡いピンク色,differencee-jewel.com
-4,1,レピドライト,赤紫色・ピンク色・紫色・帯灰紫色,differencee-jewel.com
-4,2,トルコ石,水色,differencee-jewel.com
-4,3,ルチルクォーツ,クオーツに細い針状結晶,differencee-jewel.com
-4,4,クリソコラ（クリソコーラ）,青・青緑・緑,differencee-jewel.com
-4,5,カラーレス・サファイア,無色,differencee-jewel.com
-4,6,ブルーダイヤモンド,青,differencee-jewel.com
-4,7,エッグ・パール,真珠光沢,differencee-jewel.com
-4,8,パパラチアサファイア,ピンクがかったオレンジ色,differencee-jewel.com
-4,9,桜石,薄紅色,differencee-jewel.com
-4,10,ホワイトジルコン,薄紅透明色,differencee-jewel.com
-4,11,オニキス(黒＆白),黒と白の縞模様,differencee-jewel.com
-4,12,ピンクフローライト,ピンク,differencee-jewel.com
-4,13,バイオレットパール,真珠光沢の紫,differencee-jewel.com
-4,14,カラーレス・トパーズ（ホワイトトパーズ）,無色,differencee-jewel.com
-4,15,真円真珠,白・黒・ゴールド　など,differencee-jewel.com
-4,16,ヒデナイト,クリアな緑・黄緑・青緑,differencee-jewel.com
-4,17,グリーンスピネル,緑・青緑・オリーブ,differencee-jewel.com
-4,18,ラピスラズリ,青,differencee-jewel.com
-4,19,バイオレット・ジルコン,紫,differencee-jewel.com
-4,20,ジェダイト(翡翠),白・緑・黄・赤・水色・オレンジ・藤色・黒など,differencee-jewel.com
-4,21,アンダリュサイト（アンダルサイト）,透明度のある茶色、緑褐色,differencee-jewel.com
-4,22,カメオ(サードニクス),赤と白の縞模様,differencee-jewel.com
-4,23,砂漠のバラ(デザートローズ),無色・白・黄・茶色,differencee-jewel.com
-4,24,クンツァイト,ピンク,differencee-jewel.com
-4,25,ツァボライトガーネット,緑,differencee-jewel.com
-4,26,アメシスト,紫,differencee-jewel.com
-4,27,カーネリアン,赤,differencee-jewel.com
-4,28,ネフライト,白・緑・濃緑・黄緑・淡黄・褐・黒,differencee-jewel.com
-4,29,アベンチュリンクォーツ,赤褐色・緑・白・桃・青・黄　ほか,differencee-jewel.com
-4,30,シリマナイトキャッツアイ,白・緑・褐色・黄・黒,differencee-jewel.com
-5,1,アマゾナイト,青色・青緑色・緑色,differencee-jewel.com
-5,2,イエロー・ベリル原石,黄色,differencee-jewel.com
-5,3,グリーン・ジルコン,緑,differencee-jewel.com
-5,4,ペリドット原石,緑,differencee-jewel.com
-5,5,レッドコーラル（赤珊瑚）,赤,differencee-jewel.com
-5,6,アイドクレース(ベスビアナイト),緑や褐色系,differencee-jewel.com
-5,7,モリオン,黒・黒に近い暗褐色,differencee-jewel.com
-5,8,エメラルド・キャッツ・アイ,緑、青緑,differencee-jewel.com
-5,9,ブラックパール,虹色光沢のある黒,differencee-jewel.com
-5,10,トルコ石原石,空青色、青色、帯緑青色、青緑色、帯黄緑色,differencee-jewel.com
-5,11,ブルーレースアゲート,淡い水色と白の縞模様,differencee-jewel.com
-5,12,カコクセナイト,黄色、褐色、金色の針状もしくは繊維状,differencee-jewel.com
-5,13,アイボリー（象牙）,淡いベージュ,differencee-jewel.com
-5,14,ブルーグリーン・ジルコン,青緑,differencee-jewel.com
-5,15,レッドジェダイト,赤,differencee-jewel.com
-5,16,モルダバイト,緑・深緑,differencee-jewel.com
-5,17,パープル・サファイア,紫,differencee-jewel.com
-5,18,ゴシェナイト,無色,differencee-jewel.com
-5,19,ラピス・ラズリ,青,differencee-jewel.com
-5,20,ガーデンクォーツ,無色・スモーキー・黄のクォーツ内に、緑・ピンク・黄・茶・白・赤の内包物,differencee-jewel.com
-5,21,ツイン・パール,白・黒・黄・ピンク・グレーなど,differencee-jewel.com
-5,22,デンドリテック・クォーツ,透明・半透明に植物のような模様,differencee-jewel.com
-5,23,レインボー・ガーネット,褐色の地に虹色の反射,differencee-jewel.com
-5,24,ホワイト・ムーンストーン,半透明・乳白色,differencee-jewel.com
-5,25,ブルーアンバー,黄・赤・褐色など,differencee-jewel.com
-5,26,レモンクォーツ,爽やかな黄色,differencee-jewel.com
-5,27,グリーン・トルマリン,深緑～薄緑,differencee-jewel.com
-5,28,ホワイト・カルセドニー,半透明のオフホワイト,differencee-jewel.com
-5,29,アゲート,白、灰、青、赤、黄、緑、黒、紅、乳白、褐色の縞模様,differencee-jewel.com
-5,30,ツァボライト,明るい黄緑~深緑,differencee-jewel.com
-5,31,クリソプレーズ,爽やかな黄緑色～深い緑,differencee-jewel.com
-6,1,アレキサンドライト・サファイア,青/赤紫,differencee-jewel.com
-6,2,アンバー,クリアなはちみつ色,differencee-jewel.com
-6,3,シトリン,黄,differencee-jewel.com
-6,4,ダイアスポア（ズルタナイト）,無色・白・灰色・ピンク・黄・淡紫・淡褐色・帯緑色など,differencee-jewel.com
-6,5,クリソベリル・アレキサンドライト,青緑/赤紫,differencee-jewel.com
-6,6,トルマリンレイテッド・クォーツ（原石）,クォーツの中に黒の針状インクルージョン,differencee-jewel.com
-6,7,ピンクパール,ピンク色の真珠光沢,differencee-jewel.com
-6,8,モスアクアマリン,暗い深青,differencee-jewel.com
-6,9,バロック・パール,白・グレー・黄・黒　など,differencee-jewel.com
-6,10,クォーツ原石,無色・紫・黄色・黒　ほか,differencee-jewel.com
-6,11,ホワイト・ラブラドライト(レインボームーンストーン),半透明の白に虹色の反射,differencee-jewel.com
-6,12,マベ・パール,白・黄・黒など,differencee-jewel.com
-6,13,ウンバライト（マラヤ・ガーネット）,ピンク・赤・オレンジなど,differencee-jewel.com
-6,14,フラッグ・インクルージョン内包エメラルド,緑,differencee-jewel.com
-6,15,サードオニキスのカメオ,赤と白の縞模様,differencee-jewel.com
-6,16,ブルー・オパール,エメラルドグリーン、青緑色、青色,differencee-jewel.com
-6,17,カボション・カットのアメシスト,紫,differencee-jewel.com
-6,18,砂金,金,differencee-jewel.com
-6,19,ベール状液体インクルージョン内包サファイア,青・ピンク・黄・紫　ほか,differencee-jewel.com
-6,20,グリーン・フローライト,緑,differencee-jewel.com
-6,21,サーペンテイン,緑・白・紫　など,differencee-jewel.com
-6,22,サンストーン,赤褐色・オレンジ,differencee-jewel.com
-6,23,ルビー・イン・ゾイサイト,不透明な緑に赤,differencee-jewel.com
-6,24,ウォーター・オパール,半透明の白い石に遊色効果,differencee-jewel.com
-6,25,マラカイト原石,濃淡のくっきりした緑色の縞模様,differencee-jewel.com
-6,26,スペサルタイト・ガーネット,オレンジ・レッドオレンジ・イエローオレンジ　など,differencee-jewel.com
-6,27,マルチカラートルマリン,水色・青・ピンク・オレンジ・緑　など,differencee-jewel.com
-6,28,ブルー・ジルコン,ブルー,differencee-jewel.com
-6,29,ジャスパー,赤・緑・白・黄色　など,differencee-jewel.com
-6,30,ウレキサイト・キャッツアイ,乳白色,differencee-jewel.com
-7,1,アクアマリン,水色,differencee-jewel.com
-7,2,バリサイト,不透明な青緑,differencee-jewel.com
-7,3,ロック・クリスタル,無色,differencee-jewel.com
-7,4,スター・ダイオプサイド,ブラックの地にスター効果,differencee-jewel.com
-7,5,プラチナ,銀色,differencee-jewel.com
-7,6,オブシディアン,黒,differencee-jewel.com
-7,7,スター・ローズ・クォーツ,半透明、淡ピンクにスター硬化,differencee-jewel.com
-7,8,ミルキー・オパール,乳白色・白色で半透明に白濁したもの,differencee-jewel.com
-7,9,テーパー・バゲッド・カット・ダイヤモンド,透明・黄・ブルー・ピンクなど,differencee-jewel.com
-7,10,カリフォルニアン・アイリス,紫がかったピンク,differencee-jewel.com
-7,11,半円真珠,白・黄・緑・ピンク・黒　など,differencee-jewel.com
-7,12,ビクスバイト,赤,differencee-jewel.com
-7,13,クリソベリル結晶,黄色・黄緑・褐色・透明,differencee-jewel.com
-7,14,スリーカラーフローライト,紫・緑・黄色・青・赤など,differencee-jewel.com
-7,15,オパール,半透明の白・黒・赤・青に遊色効果・ミルキーな白・青・ピンク・黄色など,differencee-jewel.com
-7,16,アズライト,深い群青色,differencee-jewel.com
-7,17,アポフィライト,無色・白・淡緑・淡黄・淡ピンク　など,differencee-jewel.com
-7,18,レインボームーンストーン,乳白色の地に虹のような光の反射,differencee-jewel.com
-7,19,ロードクロサイト,赤～淡いピンク色に白い縞,differencee-jewel.com
-7,20,アクアマリンキャッツアイ,半透明の水色に一条の光,differencee-jewel.com
-7,21,モスアゲート,透明・半透明の石に苔のような模様,differencee-jewel.com
-7,22,ミルキークォーツ,乳白色,differencee-jewel.com
-7,23,ウォーターメロントルマリン,ピンクの周辺に緑,differencee-jewel.com
-7,24,ハーキマーダイヤモンド,無色透明,differencee-jewel.com
-7,25,シェル,白・ピンク・虹色　など,differencee-jewel.com
-7,26,カーネリアン,半透明　オレンジ～レッド,differencee-jewel.com
-7,27,スピネル,黒・赤・ピンク・オレンジ・褐色・緑・青・無色,differencee-jewel.com
-7,28,ファイアーアゲート,赤・オレンジなど,differencee-jewel.com
-7,29,ブラックオパール,黒の地に虹色の輝き,differencee-jewel.com
-7,30,ヘリオドール,黄・黄緑,differencee-jewel.com
-7,31,レッドジルコン,赤,differencee-jewel.com
-8,1,シトリン,黄,differencee-jewel.com
-8,2,ブルークォーツ,無色に青のインクルージョン・不透明で灰青色　など,differencee-jewel.com
-8,3,クリソベリル・キャッツアイ,黄・黄緑・青緑に一条の光,differencee-jewel.com
-8,4,水晶（ロッククリスタル）,無色,differencee-jewel.com
-8,5,サンストーン原石,赤褐色～オレンジ　など,differencee-jewel.com
-8,6,ダークグリーンジルコン,透明なダークグリーン,differencee-jewel.com
-8,7,イエローアパタイト,黃,differencee-jewel.com
-8,8,ラウンド・カットのダイヤモンド,無色・黄・緑・茶　など,differencee-jewel.com
-8,9,イエローゴールド,金,differencee-jewel.com
-8,10,アイオライト,落ち着いた青色,differencee-jewel.com
-8,11,イエローサファイア,黃,differencee-jewel.com
-8,12,コンシャ・アゲート,貝のような渦を巻いた模様,differencee-jewel.com
-8,13,イエロージルコン,黃,differencee-jewel.com
-8,14,ファイアオパール,赤・オレンジ・ゴールドなど地色に遊色効果,differencee-jewel.com
-8,15,ブラック・オニキス,黒に白の縞模様・黒,differencee-jewel.com
-8,16,ラブラドライト,黒、グレーの地に濃い青～緑色の輝き,differencee-jewel.com
-8,17,パイライト,メタリックな光沢の黄金色、銀色、真鍮色,differencee-jewel.com
-8,18,淡水真珠,黄・緑・ピンク・オレンジ　など,differencee-jewel.com
-8,19,イエロー・カルサイト,黃,differencee-jewel.com
-8,20,スタールビー,赤に4～6条の光,differencee-jewel.com
-8,21,ジェット,黒,differencee-jewel.com
-8,22,白サンゴ,白,differencee-jewel.com
-8,23,ブルナイト,赤胴(錆びると青紫),differencee-jewel.com
-8,24,アメトリン,黄色/紫,differencee-jewel.com
-8,25,ファイアアゲート,褐色またはオレンジに炎のような模様,differencee-jewel.com
-8,26,トルコ石,不透明な水色,differencee-jewel.com
-8,27,アパタイトキャッツアイ,褐色・青・青緑に光の筋,differencee-jewel.com
-8,28,桃色サンゴ,桃色,differencee-jewel.com
-8,29,グリーンアメシスト,緑・黄緑,differencee-jewel.com
-8,30,デザートローズ,白・黄色・茶色,differencee-jewel.com
-8,31,モスアゲート,半透明・白色の瑪瑙に苔のようなインクルージョン,differencee-jewel.com
-9,1,タンザナイト,多色性のある青・青紫,differencee-jewel.com
-9,2,グレーセミバロックパール,グレーの真珠光沢,differencee-jewel.com
-9,3,ダイヤモンド原石,無色・黄・茶・灰・緑　など,differencee-jewel.com
-9,4,べっ甲,黄色、赤色、赤褐色、黒など,differencee-jewel.com
-9,5,ゴールデンパール,金色の真珠光沢,differencee-jewel.com
-9,6,勾玉,石によって,differencee-jewel.com
-9,7,ヘソナイトガーネット原石,オレンジ・朱色　など,differencee-jewel.com
-9,8,真珠,白・黒・緑・黄色・ピンク　など,differencee-jewel.com
-9,9,菊花石,黒・濃い灰色・赤茶に白い菊花の模様,differencee-jewel.com
-9,10,トレモライト・インクルージョン内包エメラルド,緑,differencee-jewel.com
-9,11,レインボーフローライト,青、紫、緑、黄など複数混じる,differencee-jewel.com
-9,12,ペリドット,黄緑・緑,differencee-jewel.com
-9,13,ゴールデン・ベリル(ヘリオドール),金色,differencee-jewel.com
-9,14,ブラッドストーン,暗緑色に赤の模様,differencee-jewel.com
-9,15,パライバ・トルマリン,ネオンカラーブルー,differencee-jewel.com
-9,16,プレーナイト,半透明の淡緑色や淡青緑色、黄色,differencee-jewel.com
-9,17,ダイオプテーズ,青緑色、濃緑色,differencee-jewel.com
-9,18,マンダリンガーネット,イエローオレンジ,differencee-jewel.com
-9,19,ラピスラズリ,不透明な青に金や白の模様,differencee-jewel.com
-9,20,ブルースピネル,青,differencee-jewel.com
-9,21,フェザー状インクルージョン内包エメラルド,緑,differencee-jewel.com
-9,22,ジルコン,無色・赤・青・黄・緑・紫・オレンジ　など,differencee-jewel.com
-9,23,アメトリン,紫と黄色のバイカラー,differencee-jewel.com
-9,24,デマントイドガーネット,緑,differencee-jewel.com
-9,25,バイカラートルマリン,緑・透明・ピンク・白の内の二色,differencee-jewel.com
-9,26,ハート＆キューピッドのあるダイヤモンド,無色透明,differencee-jewel.com
-9,27,ピンクスミソナイト,半透明のピンク,differencee-jewel.com
-9,28,アメシスト,紫,differencee-jewel.com
-9,29,トパーズ,黄・青・ピンク・無色,differencee-jewel.com
-9,30,ブルースターサファイア,青・黄・ピンク・緑などに半透明に3本の光のライン,differencee-jewel.com
-10,1,パーティカラードトルマリン,緑・ピンク・白・黄など複数のカラー,differencee-jewel.com
-10,2,クォーツ,白・黄・紫・黒　など,differencee-jewel.com
-10,3,マクル（ダイヤモンド原石）,黄・茶・白　など,differencee-jewel.com
-10,4,ファイアアゲート原石,炎のような褐色～はちみつ色,differencee-jewel.com
-10,5,キャッツアイ石,黄・青・褐色・ピンク　など,differencee-jewel.com
-10,6,クリソプレーズ,アップルグリーン,differencee-jewel.com
-10,7,ロードナイト,不透明なピンク・赤に黒の模様,differencee-jewel.com
-10,8,ブルーカルセドニー,青乳色,differencee-jewel.com
-10,9,ブルーオニキス,青に白の縞模様,differencee-jewel.com
-10,10,トルマリンキャッツアイ,緑・ピンクなどに一条の光の筋,differencee-jewel.com
-10,11,ロードライトガーネット,やや紫の赤,differencee-jewel.com
-10,12,ピンクサファイア,ピンク,differencee-jewel.com
-10,13,ヘマタイト,光沢のある黒,differencee-jewel.com
-10,14,トラピッチェエメラルド,緑に歯車上の黒のライン,differencee-jewel.com
-10,15,グリーンアベンチュリンクォーツ,緑にラメのような輝き,differencee-jewel.com
-10,16,メノウ（アゲート）,赤・黒・緑などに白の縞模様,differencee-jewel.com
-10,17,クリソコラ,不透明な青、青緑、緑が混在,differencee-jewel.com
-10,18,ブルーアゲート,青、水色に白の縞模様,differencee-jewel.com
-10,19,ウォーターメロントルマリン,緑とピンクのバイカラー,differencee-jewel.com
-10,20,トルコ石（ビーズ）,不透明の水色,differencee-jewel.com
-10,21,トルマリン原石,黄・ピンク・緑・青・赤・黒　など,differencee-jewel.com
-10,22,八面体結晶のダイヤモンド,無色・黄・褐色・グレー・ピンク　など,differencee-jewel.com
-10,23,ウォーターリリー・リーフ・インクルージョン内包ペリドット,黄緑～明るい緑,differencee-jewel.com
-10,24,インディコライトトルマリン,青,differencee-jewel.com
-10,25,レッドスピネル,赤,differencee-jewel.com
-10,26,タイガーアイ,黄・青・赤・黒・緑などに一条の光の筋,differencee-jewel.com
-10,27,ラピスラズリ,深い青に金や白の模様,differencee-jewel.com
-10,28,ヘキサゴナルを示すサファイア,青・黄・緑・ピンク　ほか,differencee-jewel.com
-10,29,クモの巣ターコイズ（トルコ石）,水色に黒の網目模様,differencee-jewel.com
-10,31,ホークスアイ,黒に近い青に一条の光の筋,differencee-jewel.com
-10,30,ピンファイアオパール,虹色の小さな点が不規則に散らばる,differencee-jewel.com
-11,1,アルマンディンガーネット,深い赤,differencee-jewel.com
-11,2,ブラックオニキス,黒に白の縞模様,differencee-jewel.com
-11,3,ゴールデンサファイア,金色がかった黄,differencee-jewel.com
-11,4,セプタークォーツ・松茸水晶,透明・黄・紫・褐色　など,differencee-jewel.com
-11,5,ネフライトキャッツアイ,半透明の緑色に一条の光の筋,differencee-jewel.com
-11,6,パール（真珠）,白・ピンク・黄・緑・黒　など,differencee-jewel.com
-11,7,アンバー（琥珀）,黄・橙・茶・黒　ほか,differencee-jewel.com
-11,8,レッドトパーズ,赤,differencee-jewel.com
-11,9,べっ甲,黄・黒・茶,differencee-jewel.com
-11,10,パイライト,金属光沢の黄金色、銀色、真鍮色,differencee-jewel.com
-11,11,1ctダイヤモンド,無色・黄・ピンク・グレー　ほか,differencee-jewel.com
-11,12,バイオレットサファイア,紫,differencee-jewel.com
-11,13,ボルダーオパール,黒や白の母岩に虹色の光沢,differencee-jewel.com
-11,14,ラベンダー翡翠,藤色,differencee-jewel.com
-11,15,赤珊瑚,不透明・赤,differencee-jewel.com
-11,16,アンモナイト・菊石,茶、黒、虹,differencee-jewel.com
-11,17,グリーンアベンチュリンクォーツ,緑にラメ状の輝き,differencee-jewel.com
-11,18,ペトリファイドウッド,白・灰・赤・黄・緑・褐色,differencee-jewel.com
-11,19,ブルートパーズ,クリアな水色,differencee-jewel.com
-11,20,ヘソナイトガーネット,オレンジ～褐色,differencee-jewel.com
-11,21,メテオライト(隕石),黒・褐色・メタリックシルバー　ほか,differencee-jewel.com
-11,22,イエローオパール,透明または半透明の黄,differencee-jewel.com
-11,23,ケシパール,白、ピンク、ゴールド、黒など,differencee-jewel.com
-11,24,ピンクコバルトカルサイト,紫がかったピンク,differencee-jewel.com
-11,25,レッドアンバー,褐色がかった黄色,differencee-jewel.com
-11,26,スキャポライト,無色・黄・紫・赤紫・ピンク,differencee-jewel.com
-11,27,マザーオブパール(白蝶貝),白,differencee-jewel.com
-11,28,オレンジッシュブラウントパーズ,オレンジがかった茶色,differencee-jewel.com
-11,29,カラーチェンジトルマリン,深緑/赤褐色・褐色/オレンジ　など,differencee-jewel.com
-11,30,十字スター,赤・青・黄・黒　など,differencee-jewel.com
-12,1,アイアンオパール,黒、褐色、など虹状の遊色効果,differencee-jewel.com
-12,2,ブラックコーラル(黒珊瑚),黒,differencee-jewel.com
-12,3,白翡翠（ホワイトジェイダイド）,半透明の白,differencee-jewel.com
-12,4,ソーダライト,やや黒味のある青・淡黄・ピンク・淡紫　など,differencee-jewel.com
-12,5,エンジェライト,乳青色,differencee-jewel.com
-12,6,パイライト原石,メタリックシルバー・メタリックゴールド,differencee-jewel.com
-12,7,ヘキサゴナルを示すルビー,赤,differencee-jewel.com
-12,8,トルマリンインクォーツ（トルマリネイテッドクォーツ）,クォーツに針状インクルージョン,differencee-jewel.com
-12,9,スモーキークォーツ,茶・褐色,differencee-jewel.com
-12,10,パーティーカラードフローライト,紫・緑・黄色・青・赤など,differencee-jewel.com
-12,11,エメラルド,緑,differencee-jewel.com
-12,12,ソフトピンクジルコン,淡いピンク,differencee-jewel.com
-12,13,ネフライト,緑・白・黒,differencee-jewel.com
-12,14,ピンクサファイア,ピンク,differencee-jewel.com
-12,15,ルビー結晶,赤,differencee-jewel.com
-12,16,アジュールマラカイト（アズルマラカイト）,青と緑がまだらに混じる,differencee-jewel.com
-12,17,スペクトロライト,青・緑・黒・黄・オレンジなどの虹色,differencee-jewel.com
-12,18,サテン仕上げリング,艶を消した金属光沢,differencee-jewel.com
-12,19,ホワイトオパール,乳白色に虹状の遊色効果,differencee-jewel.com
-12,20,シルバーバロックパール,真珠光沢のあるシルバー,differencee-jewel.com
-12,21,ブラックムーンストーン,グレー、黒にシラー効果,differencee-jewel.com
-12,22,トルマリン（オールカラー）,白・緑・黄色・ピンク・青・黒　など,differencee-jewel.com
-12,23,オレンジ翡翠,オレンジ,differencee-jewel.com
-12,24,トリカラートルマリン,緑・ピンク・白・黄・青など3色,differencee-jewel.com
-12,25,キャストライト,不透明な褐色に黒の十字模様,differencee-jewel.com
-12,26,ダイヤモンド原石,無色・黄・グレー・黒・ピンク　など,differencee-jewel.com
-12,27,クロスパール,白・黄・グレー　など,differencee-jewel.com
-12,28,ロードクロサイト,ピンクに白の縞模様,differencee-jewel.com
-12,29,トルコ石のスカラべ,不透明な水色,differencee-jewel.com
-12,30,モルダバイト,緑・深緑・褐色,differencee-jewel.com
-12,31,マーカサイト・白鉄鉱,真鍮のような金属光沢,differencee-jewel.com
+month,day,stone_name,color,meaning,source_note
+1,1,琅玕（ろうかん）,青碧色,繁栄・長寿・安定,differencee-jewel.com
+1,2,ランドスケープアゲート,マンガンや鉄により幻想的な模様を創り出す,愛・発展・安全・未来,differencee-jewel.com
+1,3,トパゾライトガーネット,黄色～山吹色,確実な吉報・人生に実りをもたらす・勝利・優雅・名声,differencee-jewel.com
+1,4,クリソコーラ原石,不透明な水色・青～青緑,幸運・仕事運・人間関係・人生の成功・心身の調和,differencee-jewel.com
+1,5,ジルコン,青・赤・無色・緑・紫・黄色・ピンク　など,生命力・行動力・成功・名誉・夢想・安らぎ・平和・苦しみからの解放・無限・永遠,differencee-jewel.com
+1,6,スターガーネット,赤,真実・情熱・友愛・繁栄・実り,differencee-jewel.com
+1,7,アンモライト,光沢のある虹色,才能、想像力、幸運,differencee-jewel.com
+1,8,グリーントルマリン,深緑～薄緑,疲労回復・強い意志・根源的な愛・行動力・良好な人間関係・ネガティブエネルギーの除去,differencee-jewel.com
+1,9,グロッシュラーガーネット,緑・オレンジ・無色・ピンク　など,決断力・知恵・勝利・導き,differencee-jewel.com
+1,10,金,黄金色,豊穣・美徳・尊敬,differencee-jewel.com
+1,11,ヘマタイト原石,黒,生命力・勇気・チャレンジ・勝利,differencee-jewel.com
+1,12,ソーダライト,青,目標達成・夢を叶える・決断力・行動力・意思力,differencee-jewel.com
+1,13,ロードナイト,ミルキーピンク・クリアな赤,友愛・博愛・愛情・秘めた情熱・回復・寛大,differencee-jewel.com
+1,14,ライスパール,光沢のある白・黄・黒　など,無垢・長寿・富・純潔・円満,differencee-jewel.com
+1,15,インド・スタールビー,赤に6条の星,情熱・希望・勝利・愛情・魅力,differencee-jewel.com
+1,16,ブルームーンストーン,半透明の乳白色,神秘の力・家族愛・恋の予感・生命力・希望・幸運,differencee-jewel.com
+1,17,不透明琥珀,白濁した黄色・黄褐色,無垢・長寿・富・純潔・円満,differencee-jewel.com
+1,18,ローゼライト,ピンク色,決断力・知恵・勝利・導き,differencee-jewel.com
+1,19,ビックスバイト,赤,誠実・直感力・洞察力・気品,differencee-jewel.com
+1,20,スノーフレークオブシディアン,黒に白・グレーの模様,集中力・不思議・潜在能力の開花,differencee-jewel.com
+1,21,ピーコック・カラー・オパール,半透明の白・または黒の地に虹の色彩,純真無垢・歓喜・希望・幸運・忍耐,differencee-jewel.com
+1,22,スターベリル,緑・水色・赤など,若さ・幸福・耐える愛・美,differencee-jewel.com
+1,23,アレキタイプガーネット,,昼と夜の愛の変貌,differencee-jewel.com
+1,24,ミルキークォーツ,半透明の白,上品・調和・母性愛・寛大さ,differencee-jewel.com
+1,25,サードオニキス,赤褐色に白の縞模様,幸せな結婚・夫婦和合・情熱,differencee-jewel.com
+1,26,パイロープガーネット,赤,勝利・真実・燃える愛,differencee-jewel.com
+1,27,アルマンディンガーネット原石（母岩付）,赤,真実・友愛・勝利,differencee-jewel.com
+1,28,ピンクトパーズ,ピンク,誠実・友情・潔白・希望,differencee-jewel.com
+1,29,クリスタルクォーツ,無色透明,純粋無垢・冷静沈着・完全・万物との調和・繁栄,differencee-jewel.com
+1,31,アレキサンドライトキャッツアイ,青/赤　一条の光,秘めた想い・高貴・情熱・安らぎ・誕生・出発・選択・変身,differencee-jewel.com
+1,30,パーティーカラードフローライト,紫・緑・黄色・青・赤など,過去と未来,differencee-jewel.com
+2,1,ウレキサイト,不透明の白・灰色,見通す力,differencee-jewel.com
+2,2,ドロップパール,光沢のある乳白色,最愛の人,differencee-jewel.com
+2,3,ガーネット結晶,赤・ピンク・オレンジ・緑　など,闘争、達成,differencee-jewel.com
+2,4,バイカラーアメシスト,紫/黄・紫/白　など,光と影・静と動・調和・安定・配慮,differencee-jewel.com
+2,5,梅花石,黒っぽい石灰岩に白の模様,困難に打ち勝つ,differencee-jewel.com
+2,6,スター・グレー・サファイヤ,灰色に4－6条の星,暁の吉報,differencee-jewel.com
+2,7,カンゴーム,黒,魔除け・邪気祓い・落ち着き,differencee-jewel.com
+2,8,ルチルレイテッド・クォーツ,水晶に針のようなインクルージョン,強運・洞察力の向上・家族円満・金運,differencee-jewel.com
+2,9,レッド・ジャスパー,赤褐色・朱色に網目状の模様,情熱・自己制御・肉体と精神の調和,differencee-jewel.com
+2,10,タイガー・アイ・クォーツ（赤）,赤い虎目模様,運命の破壊と創造,differencee-jewel.com
+2,11,ウォーターウォーン（さざれ石）,石により異なる,時の流れ,differencee-jewel.com
+2,12,イエロー・スピネル,黄色,恋の年ごろ・品格・才能・魅力・実行力,differencee-jewel.com
+2,13,バイカラーフローライト,青・紫・白・黄色など二色が混じる,二面性の魅力・調和・集中力・創造性・免疫力回復,differencee-jewel.com
+2,14,ピンク・オパール,パステルピンク,潔白・愛・希望・友情,differencee-jewel.com
+2,15,ピンクジルコン,ピンク,苦しみからの救い,differencee-jewel.com
+2,16,オレンジトルマリン,オレンジ,人生の展開,differencee-jewel.com
+2,17,タイガー・アイアン,茶系の虎目模様,勇猛、強い信念,differencee-jewel.com
+2,18,オレンジ・トパーズ,オレンジ,希望・誠実・成功・友情,differencee-jewel.com
+2,19,ウォーター・ドロップ・クォーツ,白・紫・褐色　など,生命の源,differencee-jewel.com
+2,20,サードオニキス,赤褐色に白の縞模様,情緒の絆・幸せな結婚・健康・夫婦和合・家庭運,differencee-jewel.com
+2,21,ラリマー,水色に白の模様,安らぎ・愛・平和,differencee-jewel.com
+2,22,クォーツキャッツアイ,石により異なる,未来を予見する能力,differencee-jewel.com
+2,23,ルビー,赤,情熱的な愛・仁愛・威厳・独立,differencee-jewel.com
+2,24,ホワイト・パール,白,無垢・長寿・富・純潔・円満,differencee-jewel.com
+2,25,ファントム・アメシスト,紫,幻影・神秘的・霊的,differencee-jewel.com
+2,26,フローライト,紫・緑・黄色・青・赤　など,集中力・記憶力・思考力・自由・芸術,differencee-jewel.com
+2,27,アメトリン,紫と黄,光と影・静と動・調和・安定・配慮・優しさ,differencee-jewel.com
+2,28,コーラル（虫食い珊瑚）,赤・ピンク・白,耐える心,differencee-jewel.com
+2,29,ペリドット,緑,夫婦愛・平和・癒し・運命の絆・幸福,differencee-jewel.com
+3,1,フローライト原石,紫・緑・黄色・青・赤　など,夫婦愛・平和・癒し集中力・記憶力・思考力・自由・芸術・運命の絆・幸福,differencee-jewel.com
+3,2,シェル・オパール,虹のような光沢,和合・合体,differencee-jewel.com
+3,3,モルガナイト,ピンク,清純・愛情・優美さ・女性らしさ,differencee-jewel.com
+3,4,シルバー,銀色,純粋・曇りのない良心・智恵,differencee-jewel.com
+3,5,ブルーサファイア,青,慈愛・誠実・真理・貞操・友情,differencee-jewel.com
+3,6,虫入り琥珀,明るい茶色・琥珀色,抱擁・長寿・繁栄,differencee-jewel.com
+3,7,アクロアイト,無色・わずかな有色,透明,differencee-jewel.com
+3,8,アメシスト原石,紫,守護,differencee-jewel.com
+3,9,シルバーパール,銀色の真珠光沢,崇敬,differencee-jewel.com
+3,10,スギライト,紫,浄化・献身・強い霊性・ヒーリング,differencee-jewel.com
+3,11,イネサイト,ピンクや紫,情熱,differencee-jewel.com
+3,12,アクアマリン原石,水色,自由・幸福をもたらす・健康・幸福,differencee-jewel.com
+3,13,イエローダイヤモンド,黄色,自信・富,differencee-jewel.com
+3,14,カラーレススピネル,無色聡明,純真,differencee-jewel.com
+3,15,オレンジムーンストーン,,愛の予感,differencee-jewel.com
+3,16,ローズクォーツ,淡いピンク色,真実の愛・真実の美,differencee-jewel.com
+3,17,エメラルド,緑,幸運・人間関係の改善・愛・幸せな結婚・魔除け,differencee-jewel.com
+3,18,ジェイド,,健康・知恵・安らぎ・繁栄・長寿　など,differencee-jewel.com
+3,19,バイカラークォーツ,紫/黄　褐色/白　など,春の訪れ,differencee-jewel.com
+3,20,ドラゴンパール,真珠光沢,生命の尊さ・無邪気・想像力・発想の転換,differencee-jewel.com
+3,21,カーネリアン,半透明のオレンジ〜赤,喜び・友情・勇気・連帯・頭脳明晰・安泰,differencee-jewel.com
+3,22,ラブラドライト,青や灰色・虹色のラブラドレッセンス,思慕・記憶・調和,differencee-jewel.com
+3,23,ピクチャージャスパー,不透明な黄土色・茶色の模様,全体成長運・関係改善・プラスの意識・健康の強化・思考と行動の強化,differencee-jewel.com
+3,24,ブラッドストーン,暗緑色に赤いインクルージョン,勇気・救いの力・聡明・献身,differencee-jewel.com
+3,25,ピンクジルコン,ピンク,苦しみからの救い,differencee-jewel.com
+3,26,パイライト,黄金色、銀色、真鍮色,金運招来・行動力・勇気・勝負事・危険回避,differencee-jewel.com
+3,27,レッドジャスパー,不透明な赤褐色・朱色,情熱・自己制御・肉体と精神の調和,differencee-jewel.com
+3,28,水晶,透明,純粋無垢・冷静沈着・完全・万物との調和・繁栄,differencee-jewel.com
+3,29,アイオライト,青,道を示す・人生の道標・貞操・誠実・自己同一性,differencee-jewel.com
+3,31,イエローオーソクレース,透明または半透明の薄い黄色,愛のパイロット、成功の鍵,differencee-jewel.com
+3,30,エンジェル・スキン・コーラル,淡いピンク色,変わらぬ思い,differencee-jewel.com
+4,1,レピドライト,赤紫色・ピンク色・紫色・帯灰紫色,感情の調整・変革・安眠・癒し,differencee-jewel.com
+4,2,トルコ石,水色,成功・繁栄・健康・幸福・旅の安全,differencee-jewel.com
+4,3,ルチルクォーツ,クオーツに細い針状結晶,強運・洞察力の向上・家族円満・金運,differencee-jewel.com
+4,4,クリソコラ（クリソコーラ）,青・青緑・緑,幸運・仕事運・人間関係・人生の成功・心身の調和,differencee-jewel.com
+4,5,カラーレス・サファイア,無色,聖なる力・輝く知性,differencee-jewel.com
+4,6,ブルーダイヤモンド,青,絆を深める・幸福を願う・永遠の幸せ,differencee-jewel.com
+4,7,エッグ・パール,真珠光沢,誕生・多産,differencee-jewel.com
+4,8,パパラチアサファイア,ピンクがかったオレンジ色,運命的な恋・信頼関係,differencee-jewel.com
+4,9,桜石,薄紅色,精神美・潔さ,differencee-jewel.com
+4,10,ホワイトジルコン,薄紅透明色,すべてを賭ける恋・正確な理解力・的確な行動・切れ者,differencee-jewel.com
+4,11,オニキス(黒＆白),黒と白の縞模様,成功・厄除け・秘密・夫婦の幸福,differencee-jewel.com
+4,12,ピンクフローライト,ピンク,ストレスを流す・集中力を高める,differencee-jewel.com
+4,13,バイオレットパール,真珠光沢の紫,自尊心、気高さ,differencee-jewel.com
+4,14,カラーレス・トパーズ（ホワイトトパーズ）,無色,知性、天才,differencee-jewel.com
+4,15,真円真珠,白・黒・ゴールド　など,健康・長寿・富・純潔,differencee-jewel.com
+4,16,ヒデナイト,クリアな緑・黄緑・青緑,癒やし・知性,differencee-jewel.com
+4,17,グリーンスピネル,緑・青緑・オリーブ,希望・信仰・愛情・幸福,differencee-jewel.com
+4,18,ラピスラズリ,青,聖業・危機を乗り切る・健康・愛和・成功,differencee-jewel.com
+4,19,バイオレット・ジルコン,紫,世俗性と精神性,differencee-jewel.com
+4,20,ジェダイト(翡翠),,繁栄・長寿・安定,differencee-jewel.com
+4,21,アンダリュサイト（アンダルサイト）,透明度のある茶色、緑褐色,希望・成長・真実を見抜く・愛の予感,differencee-jewel.com
+4,22,カメオ(サードニクス),赤と白の縞模様,愛のしるし・恋の告白,differencee-jewel.com
+4,23,砂漠のバラ(デザートローズ),無色・白・黄・茶色,愛と知性,differencee-jewel.com
+4,24,クンツァイト,ピンク,浄化・癒し・慈愛・愛情・共感・許し,differencee-jewel.com
+4,25,ツァボライトガーネット,緑,生命力・調和・落ち着き・忍耐力,differencee-jewel.com
+4,26,アメシスト,紫,高貴・誠実・心の平和・真実の愛,differencee-jewel.com
+4,27,カーネリアン,赤,喜び・友情・勇気・連帯・頭脳明晰・安泰,differencee-jewel.com
+4,28,ネフライト,白・緑・濃緑・黄緑・淡黄・褐・黒,健康・知恵・繁栄・安らぎ,differencee-jewel.com
+4,29,アベンチュリンクォーツ,赤褐色・緑・白・桃・青・黄　ほか,冷静沈着・心の安心・家庭円満,differencee-jewel.com
+4,30,シリマナイトキャッツアイ,白・緑・褐色・黄・黒,警告,differencee-jewel.com
+5,1,アマゾナイト,青色・青緑色・緑色,強い心・夢・希望・芸術・才能,differencee-jewel.com
+5,2,イエロー・ベリル原石,黄色,希望・輝く日,differencee-jewel.com
+5,3,グリーン・ジルコン,緑,平和の願い・苦しみから解放,differencee-jewel.com
+5,4,ペリドット原石,緑,夫婦愛・平和・癒し・運命の絆・幸福,differencee-jewel.com
+5,5,レッドコーラル（赤珊瑚）,赤,魔除け・安産・金運アップ・ポジティブ思考・子宝,differencee-jewel.com
+5,6,アイドクレース(ベスビアナイト),緑や褐色系,破邪・慈しみ・感謝・謙虚,differencee-jewel.com
+5,7,モリオン,黒・黒に近い暗褐色,魔除け・邪気祓い・落ち着き,differencee-jewel.com
+5,8,エメラルド・キャッツ・アイ,緑、青緑,想像力・福を呼ぶ,differencee-jewel.com
+5,9,ブラックパール,虹色光沢のある黒,健康・長寿・富・無垢・実行力・静かな力強さ,differencee-jewel.com
+5,10,トルコ石原石,空青色、青色、帯緑青色、青緑色、帯黄緑色,解放された心,differencee-jewel.com
+5,11,ブルーレースアゲート,淡い水色と白の縞模様,友情・平和・清らかな愛情,differencee-jewel.com
+5,12,カコクセナイト,黄色、褐色、金色の針状もしくは繊維状,栄光・勝利・神の祝福,differencee-jewel.com
+5,13,アイボリー（象牙）,淡いベージュ,清純、論理的強さ,differencee-jewel.com
+5,14,ブルーグリーン・ジルコン,青緑,去りゆく苦しみ,differencee-jewel.com
+5,15,レッドジェダイト,赤,決断力,differencee-jewel.com
+5,16,モルダバイト,緑・深緑,癒し・富・生長・豊穣・夫婦円満・繁栄,differencee-jewel.com
+5,17,パープル・サファイア,紫,初恋の思い出,differencee-jewel.com
+5,18,ゴシェナイト,無色,気品・優雅・聡明・幸運,differencee-jewel.com
+5,19,ラピス・ラズリ,青,聖業・危機を乗り切る・健康・愛和・成功,differencee-jewel.com
+5,20,ガーデンクォーツ,,地に足をつける・真面目・瞑想,differencee-jewel.com
+5,21,ツイン・パール,白・黒・黄・ピンク・グレーなど,二人の願い・調和,differencee-jewel.com
+5,22,デンドリテック・クォーツ,透明・半透明に植物のような模様,満足な成長,differencee-jewel.com
+5,23,レインボー・ガーネット,褐色の地に虹色の反射,夢の愛,differencee-jewel.com
+5,24,ホワイト・ムーンストーン,半透明・乳白色,健康・幸運・恋の予感,differencee-jewel.com
+5,25,ブルーアンバー,黄・赤・褐色など,静かに燃える心,differencee-jewel.com
+5,26,レモンクォーツ,爽やかな黄色,壮健・明朗・フレッシュ,differencee-jewel.com
+5,27,グリーン・トルマリン,深緑～薄緑,満足感・リラックス・行動力・聡明・無欲・意思力の強化,differencee-jewel.com
+5,28,ホワイト・カルセドニー,半透明のオフホワイト,エレガント・共有・集合,differencee-jewel.com
+5,29,アゲート,,調和,differencee-jewel.com
+5,30,ツァボライト,明るい黄緑~深緑,生命力・調和・落ち着き・忍耐力,differencee-jewel.com
+5,31,クリソプレーズ,爽やかな黄緑色～深い緑,精神安定・才能開花・勝利・幸運・達成・寛容,differencee-jewel.com
+6,1,アレキサンドライト・サファイア,青/赤紫,二面性・知性・カリスマ,differencee-jewel.com
+6,2,アンバー,クリアなはちみつ色,抱擁・長寿・繁栄,differencee-jewel.com
+6,3,シトリン,黄,友愛・希望・繁栄,differencee-jewel.com
+6,4,ダイアスポア（ズルタナイト）,,知性・願望・臨機応変,differencee-jewel.com
+6,5,クリソベリル・アレキサンドライト,青緑/赤紫,秘めた想い・魅力・高貴・情熱・安らぎ,differencee-jewel.com
+6,6,トルマリンレイテッド・クォーツ（原石）,クォーツの中に黒の針状インクルージョン,実質的・集中力・落ち着き・努力,differencee-jewel.com
+6,7,ピンクパール,ピンク色の真珠光沢,辛抱強い愛・幸せな結婚,differencee-jewel.com
+6,8,モスアクアマリン,暗い深青,コミュニケーションの向上・洞察力・表現力・成功運アップ・癒し,differencee-jewel.com
+6,9,バロック・パール,白・グレー・黄・黒　など,芸術性,differencee-jewel.com
+6,10,クォーツ原石,無色・紫・黄色・黒　ほか,統合・調和・強化,differencee-jewel.com
+6,11,ホワイト・ラブラドライト(レインボームーンストーン),半透明の白に虹色の反射,ストレス緩和・ひらめき・創造,differencee-jewel.com
+6,12,マベ・パール,白・黄・黒など,健康・純真・長寿,differencee-jewel.com
+6,13,ウンバライト（マラヤ・ガーネット）,ピンク・赤・オレンジなど,内気・心を奪う素質・内に秘めた魅力,differencee-jewel.com
+6,14,フラッグ・インクルージョン内包エメラルド,緑,幸運・人間関係の改善・愛・幸せな結婚・魔除け,differencee-jewel.com
+6,15,サードオニキスのカメオ,赤と白の縞模様,情緒の絆・幸せな結婚・健康・夫婦和合・家庭運,differencee-jewel.com
+6,16,ブルー・オパール,エメラルドグリーン、青緑色、青色,爽やかな愛情表現,differencee-jewel.com
+6,17,カボション・カットのアメシスト,紫,高貴・誠実・心の平和・真実の愛,differencee-jewel.com
+6,18,砂金,金,輝く未来,differencee-jewel.com
+6,19,ベール状液体インクルージョン内包サファイア,青・ピンク・黄・紫　ほか,華麗なる変身,differencee-jewel.com
+6,20,グリーン・フローライト,緑,集中力・記憶力・思考力・自由・芸術,differencee-jewel.com
+6,21,サーペンテイン,緑・白・紫　など,再生・保護・危険回避,differencee-jewel.com
+6,22,サンストーン,赤褐色・オレンジ,情熱・勇気・健康・幸運・リーダーシップ,differencee-jewel.com
+6,23,ルビー・イン・ゾイサイト,不透明な緑に赤,包容力・神秘・永遠,differencee-jewel.com
+6,24,ウォーター・オパール,半透明の白い石に遊色効果,目覚め・乙女の恋心・希望・真実,differencee-jewel.com
+6,25,マラカイト原石,濃淡のくっきりした緑色の縞模様,浄化・魔除け・洞察・子供の保護,differencee-jewel.com
+6,26,スペサルタイト・ガーネット,,不言実行・活力・根気,differencee-jewel.com
+6,27,マルチカラートルマリン,水色・青・ピンク・オレンジ・緑　など,潔白・友情・希望・無邪気,differencee-jewel.com
+6,28,ブルー・ジルコン,ブルー,安らぎ・祈願・夢想・成功,differencee-jewel.com
+6,29,ジャスパー,赤・緑・白・黄色　など,聡明・永遠の夢・セルフコントロール・勇気,differencee-jewel.com
+6,30,ウレキサイト・キャッツアイ,乳白色,見通す力,differencee-jewel.com
+7,1,アクアマリン,水色,自由・幸福をもたらす・健康,differencee-jewel.com
+7,2,バリサイト,不透明な青緑,癒し・希望・勇気・富・幸運,differencee-jewel.com
+7,3,ロック・クリスタル,無色,純粋無垢・冷静沈着・完全・万物との調和・繁栄,differencee-jewel.com
+7,4,スター・ダイオプサイド,ブラックの地にスター効果,幸運の道標・信頼・抑制・理性,differencee-jewel.com
+7,5,プラチナ,銀色,婚姻の約束・強い絆,differencee-jewel.com
+7,6,オブシディアン,黒,集中力・不思議・潜在能力の開花,differencee-jewel.com
+7,7,スター・ローズ・クォーツ,半透明、淡ピンクにスター硬化,慈愛・女性の美しさと健康,differencee-jewel.com
+7,8,ミルキー・オパール,乳白色・白色で半透明に白濁したもの,ときめき,differencee-jewel.com
+7,9,テーパー・バゲッド・カット・ダイヤモンド,透明・黄・ブルー・ピンクなど,魔除け・厄除け・不屈・運気アップ・夢がかなう,differencee-jewel.com
+7,10,カリフォルニアン・アイリス,紫がかったピンク,浄化・癒し・慈愛・愛情・共感・許し,differencee-jewel.com
+7,11,半円真珠,白・黄・緑・ピンク・黒　など,新しい出会い,differencee-jewel.com
+7,12,ビクスバイト,赤,誠実・直感力・洞察力・気品,differencee-jewel.com
+7,13,クリソベリル結晶,黄色・黄緑・褐色・透明,守護・慈愛,differencee-jewel.com
+7,14,スリーカラーフローライト,紫・緑・黄色・青・赤など,集中力・記憶力・思考力・自由・芸術,differencee-jewel.com
+7,15,オパール,,純真無垢・歓喜・希望・幸運・忍耐,differencee-jewel.com
+7,16,アズライト,深い群青色,洞察力・崇高・決断力・清浄・幻視能力,differencee-jewel.com
+7,17,アポフィライト,無色・白・淡緑・淡黄・淡ピンク　など,悟り・気付き・魂の浄化・解放,differencee-jewel.com
+7,18,レインボームーンストーン,乳白色の地に虹のような光の反射,ストレス緩和・ひらめき・創造,differencee-jewel.com
+7,19,ロードクロサイト,赤～淡いピンク色に白い縞,愛・情熱的な恋・恋愛成就・幸福・結婚,differencee-jewel.com
+7,20,アクアマリンキャッツアイ,半透明の水色に一条の光,光明・幸福・富・生命・若さ,differencee-jewel.com
+7,21,モスアゲート,透明・半透明の石に苔のような模様,結婚運・円満な家庭・真実の幸せ・夫婦円満・人間関係円滑,differencee-jewel.com
+7,22,ミルキークォーツ,乳白色,上品・調和・母性愛・寛大さ,differencee-jewel.com
+7,23,ウォーターメロントルマリン,ピンクの周辺に緑,豊かな感受性・ユーモア,differencee-jewel.com
+7,24,ハーキマーダイヤモンド,無色透明,夢・才能の開花・想像力,differencee-jewel.com
+7,25,シェル,白・ピンク・虹色　など,美しい契り・穏やかな時間の流れを保つ,differencee-jewel.com
+7,26,カーネリアン,半透明　オレンジ～レッド,喜び・友情・勇気・連帯・頭脳明晰・安泰,differencee-jewel.com
+7,27,スピネル,,挑戦・目標達成・内面の充実・安全,differencee-jewel.com
+7,28,ファイアーアゲート,赤・オレンジなど,情念・生命の煌めき,differencee-jewel.com
+7,29,ブラックオパール,黒の地に虹色の輝き,威嚇・カリスマ性・勝者・魅力・生涯現役,differencee-jewel.com
+7,30,ヘリオドール,黄・黄緑,希望・輝く日,differencee-jewel.com
+7,31,レッドジルコン,赤,やすらかな時間・穏やかな人間関係・平安,differencee-jewel.com
+8,1,シトリン,黄,友愛・希望・友情・繁栄,differencee-jewel.com
+8,2,ブルークォーツ,,落ち着き・健康・芸術的センス・危機の好転,differencee-jewel.com
+8,3,クリソベリル・キャッツアイ,黄・黄緑・青緑に一条の光,守護・慈愛,differencee-jewel.com
+8,4,水晶（ロッククリスタル）,無色,純粋無垢・冷静沈着・完全・万物との調和・繁栄,differencee-jewel.com
+8,5,サンストーン原石,赤褐色～オレンジ　など,情熱・勇気・健康・幸運・リーダーシップ,differencee-jewel.com
+8,6,ダークグリーンジルコン,透明なダークグリーン,平和の願い・苦しみから解放,differencee-jewel.com
+8,7,イエローアパタイト,黃,欺く、惑わす、たわむれ,differencee-jewel.com
+8,8,ラウンド・カットのダイヤモンド,無色・黄・緑・茶　など,エタニティー・ラブ（永遠の愛）,differencee-jewel.com
+8,9,イエローゴールド,金,忠誠、崇拝,differencee-jewel.com
+8,10,アイオライト,落ち着いた青色,道を示す・人生の道標・貞操・誠実・自己同一性,differencee-jewel.com
+8,11,イエローサファイア,黃,集中力・叡智・自信・目標達成,differencee-jewel.com
+8,12,コンシャ・アゲート,貝のような渦を巻いた模様,自然のなりゆき,differencee-jewel.com
+8,13,イエロージルコン,黃,産みの悲しみ,differencee-jewel.com
+8,14,ファイアオパール,赤・オレンジ・ゴールドなど地色に遊色効果,情熱・不屈・幸福,differencee-jewel.com
+8,15,ブラック・オニキス,黒に白の縞模様・黒,成功・厄除け・秘密・夫婦の幸福,differencee-jewel.com
+8,16,ラブラドライト,黒、グレーの地に濃い青～緑色の輝き,思慕・記憶・調和,differencee-jewel.com
+8,17,パイライト,メタリックな光沢の黄金色、銀色、真鍮色,金運招来・行動力・勇気・勝負事・危険回避,differencee-jewel.com
+8,18,淡水真珠,黄・緑・ピンク・オレンジ　など,純粋さ・誠実さ・内面の美・感情の平穏,differencee-jewel.com
+8,19,イエロー・カルサイト,黃,希望・前向きな未来・ポジティブな思考,differencee-jewel.com
+8,20,スタールビー,赤に4～6条の光,情熱・希望・勝利・愛情・魅力,differencee-jewel.com
+8,21,ジェット,黒,魔除け・闇の浄化,differencee-jewel.com
+8,22,白サンゴ,白,幸福・富・家庭円満・生命力,differencee-jewel.com
+8,23,ブルナイト,赤胴(錆びると青紫),アグレッシブな感覚,differencee-jewel.com
+8,24,アメトリン,黄色/紫,光と影・静と動・調和・安定・配慮・優しさ,differencee-jewel.com
+8,25,ファイアアゲート,褐色またはオレンジに炎のような模様,情念・生命の煌めき・スムーズなアクセス,differencee-jewel.com
+8,26,トルコ石,不透明な水色,成功・繁栄・健康・幸福・旅の安全,differencee-jewel.com
+8,27,アパタイトキャッツアイ,褐色・青・青緑に光の筋,ソフトな惑わし,differencee-jewel.com
+8,28,桃色サンゴ,桃色,長寿・聡明・幸福,differencee-jewel.com
+8,29,グリーンアメシスト,緑・黄緑,誠実・心の平穏,differencee-jewel.com
+8,30,デザートローズ,白・黄色・茶色,愛情・知性・再生・冷静,differencee-jewel.com
+8,31,モスアゲート,,結婚運・円満な家庭・真実の幸せ・夫婦円満・人間関係円滑,differencee-jewel.com
+9,1,タンザナイト,多色性のある青・青紫,誇り高き人物・希望・神秘・高貴・知性・冷静,differencee-jewel.com
+9,2,グレーセミバロックパール,グレーの真珠光沢,勝ち取る愛,differencee-jewel.com
+9,3,ダイヤモンド原石,無色・黄・茶・灰・緑　など,隠された秘密,differencee-jewel.com
+9,4,べっ甲,黄色、赤色、赤褐色、黒など,未来・予知・生命力,differencee-jewel.com
+9,5,ゴールデンパール,金色の真珠光沢,富・成熟・健康,differencee-jewel.com
+9,6,勾玉,石によって,繁栄・魔除け・縁結び　など,differencee-jewel.com
+9,7,ヘソナイトガーネット原石,オレンジ・朱色　など,活力の補充・生命力・積極性・成功・情熱　など,differencee-jewel.com
+9,8,真珠,白・黒・緑・黄色・ピンク　など,無垢・長寿・富・純潔・円満,differencee-jewel.com
+9,9,菊花石,黒・濃い灰色・赤茶に白い菊花の模様,長寿と幸福,differencee-jewel.com
+9,10,トレモライト・インクルージョン内包エメラルド,緑,幸運・人間関係の改善・愛・幸せな結婚・魔除け,differencee-jewel.com
+9,11,レインボーフローライト,青、紫、緑、黄など複数混じる,願望達成,differencee-jewel.com
+9,12,ペリドット,黄緑・緑,夫婦愛・平和・癒し・運命の絆・幸福,differencee-jewel.com
+9,13,ゴールデン・ベリル(ヘリオドール),金色,希望・輝く日,differencee-jewel.com
+9,14,ブラッドストーン,暗緑色に赤の模様,勇気・救いの力・聡明・献身,differencee-jewel.com
+9,15,パライバ・トルマリン,ネオンカラーブルー,友愛・真実・勝利・ルーツ,differencee-jewel.com
+9,16,プレーナイト,半透明の淡緑色や淡青緑色、黄色,前向き・冷静さ・美しさ・健康,differencee-jewel.com
+9,17,ダイオプテーズ,青緑色、濃緑色,毒素の排除・心の癒し・心の潤い,differencee-jewel.com
+9,18,マンダリンガーネット,イエローオレンジ,不言実行・活力・根気,differencee-jewel.com
+9,19,ラピスラズリ,不透明な青に金や白の模様,聖業・危機を乗り切る・健康・愛和・成功,differencee-jewel.com
+9,20,ブルースピネル,青,愛の刺激・審美眼・美的意識・自信,differencee-jewel.com
+9,21,フェザー状インクルージョン内包エメラルド,緑,心の成長、内なる美,differencee-jewel.com
+9,22,ジルコン,無色・赤・青・黄・緑・紫・オレンジ　など,生命力・行動力・成功・名誉・夢想・安らぎ　など,differencee-jewel.com
+9,23,アメトリン,紫と黄色のバイカラー,光と影・静と動・調和・安定・配慮・優しさ,differencee-jewel.com
+9,24,デマントイドガーネット,緑,友愛・真実・勝利・実り,differencee-jewel.com
+9,25,バイカラートルマリン,緑・透明・ピンク・白の内の二色,癒し・自信を持たせてくれる・魅力アップ・才能開花・心身の安定,differencee-jewel.com
+9,26,ハート＆キューピッドのあるダイヤモンド,無色透明,約束された愛,differencee-jewel.com
+9,27,ピンクスミソナイト,半透明のピンク,癒し・浄化・心身の安定,differencee-jewel.com
+9,28,アメシスト,紫,高貴・誠実・心の平和・真実の愛,differencee-jewel.com
+9,29,トパーズ,黄・青・ピンク・無色,友情・希望・誠実・潔白,differencee-jewel.com
+9,30,ブルースターサファイア,,誠実・貞操・知識へ導く,differencee-jewel.com
+10,1,パーティカラードトルマリン,緑・ピンク・白・黄など複数のカラー,潔白・友情・希望・無邪気,differencee-jewel.com
+10,2,クォーツ,白・黄・紫・黒　など,純粋・無垢　など,differencee-jewel.com
+10,3,マクル（ダイヤモンド原石）,黄・茶・白　など,セクシーな関係,differencee-jewel.com
+10,4,ファイアアゲート原石,炎のような褐色～はちみつ色,スムーズなアクセス・情念,differencee-jewel.com
+10,5,キャッツアイ石,黄・青・褐色・ピンク　など,石による,differencee-jewel.com
+10,6,クリソプレーズ,アップルグリーン,精神安定・才能開花・勝利・幸運・達成・寛容,differencee-jewel.com
+10,7,ロードナイト,不透明なピンク・赤に黒の模様,友愛・博愛・秘めた情熱・回復・寛大,differencee-jewel.com
+10,8,ブルーカルセドニー,青乳色,安らぎ・博愛・円滑・平和,differencee-jewel.com
+10,9,ブルーオニキス,青に白の縞模様,よき知らせ,differencee-jewel.com
+10,10,トルマリンキャッツアイ,緑・ピンクなどに一条の光の筋,開眼,differencee-jewel.com
+10,11,ロードライトガーネット,やや紫の赤,勝利・友愛・不変の愛,differencee-jewel.com
+10,12,ピンクサファイア,ピンク,豊かな愛情・守護・優しさ・恋愛力・正義,differencee-jewel.com
+10,13,ヘマタイト,光沢のある黒,生命力・勇気・チャレンジ・勝利,differencee-jewel.com
+10,14,トラピッチェエメラルド,緑に歯車上の黒のライン,回転,differencee-jewel.com
+10,15,グリーンアベンチュリンクォーツ,緑にラメのような輝き,冷静沈着・優しさ・心の安定・家庭円満・安眠,differencee-jewel.com
+10,16,メノウ（アゲート）,赤・黒・緑などに白の縞模様,対人関係調和・長寿・健康・勇気,differencee-jewel.com
+10,17,クリソコラ,不透明な青、青緑、緑が混在,幸運・仕事運・人間関係・人生の成功・心身の調和,differencee-jewel.com
+10,18,ブルーアゲート,青、水色に白の縞模様,よき知らせ,differencee-jewel.com
+10,19,ウォーターメロントルマリン,緑とピンクのバイカラー,豊かな感受性・ユーモア,differencee-jewel.com
+10,20,トルコ石（ビーズ）,不透明の水色,成功・繁栄・健康・幸福・旅の安全,differencee-jewel.com
+10,21,トルマリン原石,黄・ピンク・緑・青・赤・黒　など,希望・無邪気・潔白・友情・寛大,differencee-jewel.com
+10,22,八面体結晶のダイヤモンド,無色・黄・褐色・グレー・ピンク　など,ラッキーな未来,differencee-jewel.com
+10,23,ウォーターリリー・リーフ・インクルージョン内包ペリドット,黄緑～明るい緑,復活・生命力,differencee-jewel.com
+10,24,インディコライトトルマリン,青,芸術的センス,differencee-jewel.com
+10,25,レッドスピネル,赤,好奇心・探究心・自信,differencee-jewel.com
+10,26,タイガーアイ,黄・青・赤・黒・緑などに一条の光の筋,金運・邪気を断つ・洞察力・決断力・自信を与える,differencee-jewel.com
+10,27,ラピスラズリ,深い青に金や白の模様,聖業・危機を乗り切る・健康・愛和・成功,differencee-jewel.com
+10,28,ヘキサゴナルを示すサファイア,青・黄・緑・ピンク　ほか,成功・誠実・慈愛・明晰な思考　など,differencee-jewel.com
+10,29,クモの巣ターコイズ（トルコ石）,水色に黒の網目模様,洞察力、創造,differencee-jewel.com
+10,31,ホークスアイ,黒に近い青に一条の光の筋,判断力・富・仕事運・洞察力・前進する力,differencee-jewel.com
+10,30,ピンファイアオパール,虹色の小さな点が不規則に散らばる,正しい方向性,differencee-jewel.com
+11,1,アルマンディンガーネット,深い赤,真実・友愛・勝利,differencee-jewel.com
+11,2,ブラックオニキス,黒に白の縞模様,成功・厄除け・秘密・夫婦の幸福,differencee-jewel.com
+11,3,ゴールデンサファイア,金色がかった黄,輝く魅力・光明,differencee-jewel.com
+11,4,セプタークォーツ・松茸水晶,透明・黄・紫・褐色　など,誕生の喜び,differencee-jewel.com
+11,5,ネフライトキャッツアイ,半透明の緑色に一条の光の筋,まなざしの魅力,differencee-jewel.com
+11,6,パール（真珠）,白・ピンク・黄・緑・黒　など,無垢・長寿・富・純潔・円満,differencee-jewel.com
+11,7,アンバー（琥珀）,黄・橙・茶・黒　ほか,抱擁・長寿・繁栄,differencee-jewel.com
+11,8,レッドトパーズ,赤,生命と繁栄,differencee-jewel.com
+11,9,べっ甲,黄・黒・茶,未来・予知・生命力,differencee-jewel.com
+11,10,パイライト,金属光沢の黄金色、銀色、真鍮色,金運招来・行動力・勇気・勝負事・危険回避,differencee-jewel.com
+11,11,1ctダイヤモンド,無色・黄・ピンク・グレー　ほか,幸せの始まり,differencee-jewel.com
+11,12,バイオレットサファイア,紫,華麗なる変身,differencee-jewel.com
+11,13,ボルダーオパール,黒や白の母岩に虹色の光沢,奇跡・発想・達成,differencee-jewel.com
+11,14,ラベンダー翡翠,藤色,繁栄・長寿・安定,differencee-jewel.com
+11,15,赤珊瑚,不透明・赤,魔除け・幸福・金運・長寿・子宝,differencee-jewel.com
+11,16,アンモナイト・菊石,茶、黒、虹,フレキシブルな思考,differencee-jewel.com
+11,17,グリーンアベンチュリンクォーツ,緑にラメ状の輝き,冷静沈着・心の安心・家庭円満,differencee-jewel.com
+11,18,ペトリファイドウッド,白・灰・赤・黄・緑・褐色,希望・真心・博愛,differencee-jewel.com
+11,19,ブルートパーズ,クリアな水色,知性・希望・友情,differencee-jewel.com
+11,20,ヘソナイトガーネット,オレンジ～褐色,再生・生命力・積極性・成功・情熱　など,differencee-jewel.com
+11,21,メテオライト(隕石),黒・褐色・メタリックシルバー　ほか,達成、変革、創造、知恵,differencee-jewel.com
+11,22,イエローオパール,透明または半透明の黄,金運、心の浄化、子育て成長,differencee-jewel.com
+11,23,ケシパール,白、ピンク、ゴールド、黒など,健康・富・長寿・純潔・ひと時の休息,differencee-jewel.com
+11,24,ピンクコバルトカルサイト,紫がかったピンク,繁栄・希望・恋愛・ロマンチックな夢・平和,differencee-jewel.com
+11,25,レッドアンバー,褐色がかった黄色,健康長寿・繁栄・子宝・安産・小悪魔の魅力,differencee-jewel.com
+11,26,スキャポライト,無色・黄・紫・赤紫・ピンク,独立・決断・意志・自立心,differencee-jewel.com
+11,27,マザーオブパール(白蝶貝),白,健康・長寿・富・無垢・円満　など,differencee-jewel.com
+11,28,オレンジッシュブラウントパーズ,オレンジがかった茶色,保護・包容力,differencee-jewel.com
+11,29,カラーチェンジトルマリン,深緑/赤褐色・褐色/オレンジ　など,希望・無邪気・潔白・友情・寛大,differencee-jewel.com
+11,30,十字スター,赤・青・黄・黒　など,スタールビー/情熱・希望・勝利　　スターサファイア/誠実・貞操・知識へ導く、など石による,differencee-jewel.com
+12,1,アイアンオパール,黒、褐色、など虹状の遊色効果,思いやりのある行動,differencee-jewel.com
+12,2,ブラックコーラル(黒珊瑚),黒,冷静な機知,differencee-jewel.com
+12,3,白翡翠（ホワイトジェイダイド）,半透明の白,忍耐・調和・福財・幸運・飛躍,differencee-jewel.com
+12,4,ソーダライト,,目標達成・夢を叶える・決断力・行動力・意思力,differencee-jewel.com
+12,5,エンジェライト,乳青色,優しさ・癒やし・ヒーリング・博愛と平和,differencee-jewel.com
+12,6,パイライト原石,メタリックシルバー・メタリックゴールド,金運招来・行動力・勇気・勝負事・危険回避,differencee-jewel.com
+12,7,ヘキサゴナルを示すルビー,赤,情熱的な愛・仁愛・威厳・独立,differencee-jewel.com
+12,8,トルマリンインクォーツ（トルマリネイテッドクォーツ）,クォーツに針状インクルージョン,実質的・集中力・落ち着き・努力,differencee-jewel.com
+12,9,スモーキークォーツ,茶・褐色,安定・癒し・責任感・素直・安眠,differencee-jewel.com
+12,10,パーティーカラードフローライト,紫・緑・黄色・青・赤など,過去と未来,differencee-jewel.com
+12,11,エメラルド,緑,幸運・人間関係の改善・愛・幸せな結婚・魔除け,differencee-jewel.com
+12,12,ソフトピンクジルコン,淡いピンク,媚薬,differencee-jewel.com
+12,13,ネフライト,緑・白・黒,健康・知恵・繁栄・安らぎ,differencee-jewel.com
+12,14,ピンクサファイア,ピンク,豊かな愛情・守護・優しさ・恋愛力・正義,differencee-jewel.com
+12,15,ルビー結晶,赤,情熱的な愛・仁愛・威厳・独立,differencee-jewel.com
+12,16,アジュールマラカイト（アズルマラカイト）,青と緑がまだらに混じる,名声と栄誉,differencee-jewel.com
+12,17,スペクトロライト,青・緑・黒・黄・オレンジなどの虹色,情熱的・危険な愛,differencee-jewel.com
+12,18,サテン仕上げリング,艶を消した金属光沢,ひそやかな愛の告白,differencee-jewel.com
+12,19,ホワイトオパール,乳白色に虹状の遊色効果,純真無垢・歓喜・希望・幸運・忍耐,differencee-jewel.com
+12,20,シルバーバロックパール,真珠光沢のあるシルバー,快心,differencee-jewel.com
+12,21,ブラックムーンストーン,グレー、黒にシラー効果,ふたりの出発,differencee-jewel.com
+12,22,トルマリン（オールカラー）,白・緑・黄色・ピンク・青・黒　など,潔白・友情・希望・無邪気,differencee-jewel.com
+12,23,オレンジ翡翠,オレンジ,ストレートな告白,differencee-jewel.com
+12,24,トリカラートルマリン,緑・ピンク・白・黄・青など3色,過去と未来,differencee-jewel.com
+12,25,キャストライト,不透明な褐色に黒の十字模様,聖なる契約,differencee-jewel.com
+12,26,ダイヤモンド原石,無色・黄・グレー・黒・ピンク　など,変わらぬ愛・清純・無垢・純愛・不変,differencee-jewel.com
+12,27,クロスパール,白・黄・グレー　など,不滅の愛,differencee-jewel.com
+12,28,ロードクロサイト,ピンクに白の縞模様,愛・情熱的な恋・恋愛成就・幸福・結婚,differencee-jewel.com
+12,29,トルコ石のスカラべ,不透明な水色,成功・繁栄・健康・幸福・旅の安全,differencee-jewel.com
+12,30,モルダバイト,緑・深緑・褐色,癒し・富・生長き・豊穣・夫婦円満・繁栄,differencee-jewel.com
+12,31,マーカサイト・白鉄鉱,真鍮のような金属光沢,思い出・憧憬,differencee-jewel.com
