@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATAL</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>誕生日入力</h1>
+    <p class="subtitle"> あなたの誕生日を入力してください。</p>
+    <div class="form-area">
+        <input type="number" id="month" placeholder="月" min="1" max="12">
+    <span class="sep">月</span>
+    <input type="number" id="day" placeholder="日" min="1" max="31">
+    <span class="sep">日</span>
+    <button onclick="search()">検索</button>
+    </div>
+
+    <div class="loader" id="loader"></div>
+    <div id="result"></div>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
