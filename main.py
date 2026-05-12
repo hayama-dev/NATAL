@@ -25,11 +25,31 @@ def birthday(month: int, day: int):
     
     date_id = date_res.data[0]["id"]
 
-    # birthstonesテーブルから誕生石を取得
-    stone_res = supabase.table("birthstones").select("stone_name, meaning, source_note").eq("date_id", date_id).execute()
+    # birthstonesテーブルから誕生石を取得（group_idを含める）
+    stone_res = supabase.table("birthstones").select("stone_name, meaning, source_note, group_id").eq("date_id", date_id).execute()
+
+    # group_idでグループ化して統合
+    groups = {}
+    for stone in stone_res.data:
+        group_id = stone.get("group_id")
+        if group_id not in groups:
+            groups[group_id] = []
+        groups[group_id].append(stone)
+    
+    # 各グループから最も詳細な情報を選ぶ
+    birthstones = []
+    for group_id, stones in groups.items():
+        # meaningが最も長いものを「正確」と判断
+        best_stone = max(stones, key=lambda s: len(s.get("meaning", "")))
+        birthstones.append({
+            "stone_name": best_stone["stone_name"],
+            "meaning": best_stone["meaning"],
+            "source_note": best_stone["source_note"],
+            "group_id": group_id,
+        })
 
     return {
         "month": month,
         "day": day,
-        "birthstones": stone_res.data,
+        "birthstones": birthstones,
     }
