@@ -43,7 +43,7 @@ async function search() {
     result.innerHTML = "";
 
     try {
-        const res = await fetch(`http://localhost:8000/birthday?month=${month}&day=${day}`);
+        const res = await fetch(`https://natal-back-5mdq.onrender.com/birthday?month=${month}&day=${day}`);
         const data = await res.json();
 
         loader.style.display = "none";
