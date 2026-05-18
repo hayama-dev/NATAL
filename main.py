@@ -39,8 +39,7 @@ def birthday(month: int, day: int):
     # 各グループから最も詳細な情報を選ぶ
     birthstones = []
     for group_id, stones in groups.items():
-        # meaningが最も長いものを「正確」と判断
-        best_stone = max(stones, key=lambda s: len(s.get("meaning", "")))
+        best_stone = max(stones, key=lambda s: len(s.get("meaning", "") or ""))
         birthstones.append({
             "stone_name": best_stone["stone_name"],
             "meaning": best_stone["meaning"],
@@ -48,8 +47,21 @@ def birthday(month: int, day: int):
             "group_id": group_id,
         })
 
+    # birthdrinksテーブルから誕生酒を取得
+    drink_res = supabase.table("birthdrinks").select("drink_name, word, recipe, source_note").eq("date_id", date_id).execute()
+
+    birthdrinks = []
+    for drink in drink_res.data:
+        birthdrinks.append({
+            "drink_name": drink["drink_name"],
+            "word": drink["word"],
+            "recipe": drink["recipe"],
+            "source_note": drink["source_note"],
+        })
+
     return {
         "month": month,
         "day": day,
         "birthstones": birthstones,
+        "birthdrinks": birthdrinks,
     }

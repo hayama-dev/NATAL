@@ -136,6 +136,23 @@ button:active {
     line-height: 1.6;
 }
 
+/* レシピの比率部分 */
+.card .recipe-ratio {
+    font-size: 0.9rem;
+    color: #a0c4ff;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    font-family: 'Courier New', monospace;
+}
+
+/* お好みで系の補足 */
+.card .recipe-optional {
+    font-size: 0.82rem;
+    color: #aaa;
+    margin-top: 6px;
+    font-style: italic;
+}
+
 .card .source {
     font-size: 0.75rem;
     color: #777;
