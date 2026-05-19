@@ -181,6 +181,7 @@ button:active {
     font-size: 0.75rem;
     color: #777;
     margin-top: 12px;
+    display: none;
 }
 
 .error {
