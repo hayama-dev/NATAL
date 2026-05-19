@@ -1,15 +1,22 @@
+import os
 from fastapi import FastAPI
-from db.supabase import supabase
 from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
+from db.supabase import supabase
+
+load_dotenv()
+ENV = os.getenv("ENV", "production")
+
+origins = ["https://natal-846x.onrender.com"]
+if ENV == "development":
+    origins.append("http://127.0.0.1:5500")
 
 app = FastAPI()
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://natal-front.onrender.com",
-        "http://localhost:8000",
-    ],
+    allow_origins=origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )
