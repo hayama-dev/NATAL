@@ -58,10 +58,22 @@ def birthday(month: int, day: int):
             "recipe": drink["recipe"],
             "source_note": drink["source_note"],
         })
+    
+    color_res = supabase.table("birthcolors").select("color_name, color_hex, meaning, source_note").eq("date_id", date_id).execute()
+
+    birthcolors = []
+    for color in color_res.data:
+        birthcolors.append({
+            "color_name": color["color_name"],
+            "color_hex": color["color_hex"],
+            "meaning": color["meaning"],
+            "source_note": color["source_note"],
+        })
 
     return {
         "month": month,
         "day": day,
         "birthstones": birthstones,
         "birthdrinks": birthdrinks,
+        "birthcolors": birthcolors,
     }
