@@ -8,6 +8,15 @@ document.addEventListener("keydown", (e) => {
     if (e.key === "Enter") search();
 });
 
+const INGREDIENT_COLORS = [
+    "#e8c07d", // シャンパンゴールド
+    "#7db8e8", // アイスブルー
+    "#e87d9a", // ローズピンク
+    "#7de8c0", // ミントグリーン
+    "#b87de8", // モーブパープル
+    "#e8a07d", // テラコッタ
+];
+
 // 石の名前から色を推定
 function getStoneColor(name) {
     const colorMap = [
@@ -54,12 +63,17 @@ function getDrinkColor(name) {
 }
 
 function parseRecipe(recipe) {
-    if (!recipe) return { ratio: "", optional: "" };
+    if (!recipe) return { ingredients: [], ratios: [], optional: "" };
+
     const parts = recipe.split("|");
-    return {
-        ratio: parts[0].trim(),
-        optional: parts[1] ? parts[1].trim() : ""
-    };
+    const mainPart = parts[0].trim();
+    const optional = parts[1] ? parts[1].trim() : "";
+
+    const eqSplit = mainPart.split("=");
+    const ingredients = eqSplit[0].split(":").map(s => s.trim());
+    const ratios = eqSplit[1] ? eqSplit[1].split(":").map(s => s.trim()) : [];
+
+    return { ingredients, ratios, optional };
 }
 
 function isLightColor(hex) {
@@ -104,7 +118,6 @@ async function search() {
                 <div class="card" id="card-stone-${i}" style="border-left-color: ${color}">
                     <div class="stone-name" style="color: ${color}">${stone.stone_name}</div>
                     <div class="meaning">${stone.meaning || "石言葉なし"}</div>
-                    <div class="source">出典：${stone.source_note}</div>
                 </div>
             `;
         });
@@ -115,13 +128,24 @@ async function search() {
             data.birthdrinks.forEach((drink, i) => {
                 const color = getDrinkColor(drink.drink_name);
                 const recipe = parseRecipe(drink.recipe);
+
+                const ingredientRows = recipe.ingredients.map((ing, idx) => {
+                    const c = INGREDIENT_COLORS[idx % INGREDIENT_COLORS.length];
+                    return `<li style="color: ${c}">・${ing}</li>`;
+                }).join("");
+
+                const ratioNums = recipe.ratios.map((r, idx) => {
+                    const c = INGREDIENT_COLORS[idx % INGREDIENT_COLORS.length];
+                    return `<span style="color: ${c}">${r}</span>`;
+                }).join(' : ');
+
                 html += `
                     <div class="card" id="card-drink-${i}" style="border-left-color: ${color}">
                         <div class="stone-name" style="color: ${color}">🍹 ${drink.drink_name}</div>
                         <div class="meaning">${drink.word || ""}</div>
-                        <div class="recipe-ratio">${recipe.ratio}</div>
+                        <ul class="recipe-list">${ingredientRows}</ul>
+                        ${ratioNums ? `<div class="recipe-ratio">比率 ${ratioNums}</div>` : ""}
                         ${recipe.optional ? `<div class="recipe-optional">✨ ${recipe.optional}</div>` : ""}
-                        <div class="source">出典：${drink.source_note}</div>
                     </div>
                 `;
             });
@@ -132,8 +156,8 @@ async function search() {
             html += `<p class="result-title">${data.month}月${data.day}日の誕生色</p>`;
             data.birthcolors.forEach((color, i) => {
                 const textShadow = isLightColor(color.color_hex)
-                    ? "0 0 3px #000, 0 0 3px #000"   // 明るい色 → 黒縁
-                    : "0 0 3px #fff, 0 0 3px #fff";   // 暗い色 → 白縁
+                    ? "0 0 3px #000, 0 0 3px #000"
+                    : "0 0 3px #fff, 0 0 3px #fff";
                 html += `
                     <div class="card" id="card-color-${i}" style="border-left-color: ${color.color_hex}">
                         <div class="color-swatch-row">
@@ -142,7 +166,6 @@ async function search() {
                         </div>
                         <div class="color-hex">${color.color_hex}</div>
                         <div class="meaning">${color.meaning || ""}</div>
-                        <div class="source">出典：${color.source_note}</div>
                     </div>
                 `;
             });
