@@ -153,6 +153,30 @@ button:active {
     font-style: italic;
 }
 
+/* 誕生色：色見本と色名を横並び */
+.color-swatch-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.color-swatch {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* カラーコード表示 */
+.card .color-hex {
+    font-size: 0.82rem;
+    color: #888;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 8px;
+}
+
 .card .source {
     font-size: 0.75rem;
     color: #777;

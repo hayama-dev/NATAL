@@ -1,6 +1,4 @@
 // 環境によってAPIのURLを切り替え
-// ローカル（file://で開く）→ localhost:8000
-// 本番（ブラウザでアクセス）→ RenderのURL
 const API_BASE = window.location.protocol === "file:"
     ? "http://localhost:8000"
     : "https://natal-back-5mdq.onrender.com";
@@ -55,9 +53,6 @@ function getDrinkColor(name) {
     return "#6c63ff";
 }
 
-// レシピ文字列を2つのパーツに分割して表示用に整形
-// 例: "ラム : ライムジュース = 2 : 1 | シュガーシロップはお好みで"
-// → { ratio: "ラム : ライムジュース = 2 : 1", optional: "シュガーシロップはお好みで" }
 function parseRecipe(recipe) {
     if (!recipe) return { ratio: "", optional: "" };
     const parts = recipe.split("|");
@@ -65,6 +60,14 @@ function parseRecipe(recipe) {
         ratio: parts[0].trim(),
         optional: parts[1] ? parts[1].trim() : ""
     };
+}
+
+function isLightColor(hex) {
+    const r = parseInt(hex.slice(1, 3), 16);
+    const g = parseInt(hex.slice(3, 5), 16);
+    const b = parseInt(hex.slice(5, 7), 16);
+    const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+    return luminance > 0.6;
 }
 
 // 検索処理
@@ -79,7 +82,6 @@ async function search() {
         return;
     }
 
-    // ローディング表示
     loader.style.display = "block";
     result.innerHTML = "";
 
@@ -125,9 +127,30 @@ async function search() {
             });
         }
 
+        // 誕生色セクション
+        if (data.birthcolors && data.birthcolors.length > 0) {
+            html += `<p class="result-title">${data.month}月${data.day}日の誕生色</p>`;
+            data.birthcolors.forEach((color, i) => {
+                const textShadow = isLightColor(color.color_hex)
+                    ? "0 0 3px #000, 0 0 3px #000"   // 明るい色 → 黒縁
+                    : "0 0 3px #fff, 0 0 3px #fff";   // 暗い色 → 白縁
+                html += `
+                    <div class="card" id="card-color-${i}" style="border-left-color: ${color.color_hex}">
+                        <div class="color-swatch-row">
+                            <div class="color-swatch" style="background-color: ${color.color_hex}"></div>
+                            <div class="stone-name" style="color: ${color.color_hex}; text-shadow: ${textShadow}">${color.color_name}</div>
+                        </div>
+                        <div class="color-hex">${color.color_hex}</div>
+                        <div class="meaning">${color.meaning || ""}</div>
+                        <div class="source">出典：${color.source_note}</div>
+                    </div>
+                `;
+            });
+        }
+
         result.innerHTML = html;
 
-        // カードを1枚ずつフェードイン（石＋酒まとめて）
+        // カードを1枚ずつフェードイン
         const allCards = document.querySelectorAll(".card");
         allCards.forEach((card, i) => {
             setTimeout(() => card.classList.add("visible"), i * 150);
