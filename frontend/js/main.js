@@ -114,9 +114,13 @@ async function search() {
         let html = `<p class="result-title">${data.month}月${data.day}日の誕生石</p>`;
         data.birthstones.forEach((stone, i) => {
             const color = getStoneColor(stone.stone_name);
+            const stoneShadow = isLightColor(color) 
+            ? "0 0 3px #000, 0 0 3px #000" 
+            : "0 0 3px #fff, 0 0 3px #fff";
+
             html += `
                 <div class="card" id="card-stone-${i}" style="border-left-color: ${color}">
-                    <div class="stone-name" style="color: ${color}">${stone.stone_name}</div>
+                    <div class="stone-name" style="color: ${color}; text-shadow: ${stoneShadow}">${stone.stone_name}</div>
                     <div class="meaning">${stone.meaning || "石言葉なし"}</div>
                 </div>
             `;
@@ -139,9 +143,13 @@ async function search() {
                     return `<span style="color: ${c}">${r}</span>`;
                 }).join(' : ');
 
+                const drinkShadow = isLightColor(color) 
+                ? "0 0 3px #000, 0 0 3px #000" 
+                : "0 0 3px #fff, 0 0 3px #fff";
+
                 html += `
                     <div class="card" id="card-drink-${i}" style="border-left-color: ${color}">
-                        <div class="stone-name" style="color: ${color}">🍹 ${drink.drink_name}</div>
+                        <div class="stone-name" style="color: ${color};text-shadow: ${drinkShadow}">🍹 ${drink.drink_name}</div>
                         <div class="meaning">${drink.word || ""}</div>
                         <ul class="recipe-list">${ingredientRows}</ul>
                         ${ratioNums ? `<div class="recipe-ratio">比率 ${ratioNums}</div>` : ""}

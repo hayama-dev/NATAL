@@ -223,6 +223,7 @@ button:active {
 
 /* 誕生色ヒーロー */
 .color-hero {
+    border: 5px solid rgba(255,255,255,0.6);
     border-radius: 16px;
     padding: 48px 24px;
     margin-bottom: 16px;
