@@ -17,7 +17,6 @@ const INGREDIENT_COLORS = [
     "#e8a07d", // テラコッタ
 ];
 
-// 石の名前から色を推定
 function getStoneColor(name) {
     const colorMap = [
         { keywords: ["ルビー", "ガーネット", "赤", "レッド", "コーラル", "珊瑚"], color: "#e74c3c" },
@@ -31,16 +30,12 @@ function getStoneColor(name) {
         { keywords: ["オニキス", "ブラック", "黒", "ジェット"], color: "#555" },
         { keywords: ["真珠", "パール", "ムーンストーン"], color: "#d5d8dc" },
     ];
-
     for (const entry of colorMap) {
-        if (entry.keywords.some(k => name.includes(k))) {
-            return entry.color;
-        }
+        if (entry.keywords.some(k => name.includes(k))) return entry.color;
     }
     return "#6c63ff";
 }
 
-// カクテルの色を推定
 function getDrinkColor(name) {
     const colorMap = [
         { keywords: ["ブルー", "スカイ", "アクア", "チャイナブルー", "ラグーン"], color: "#3498db" },
@@ -53,26 +48,20 @@ function getDrinkColor(name) {
         { keywords: ["パープル", "バイオレット", "カシス", "ブルーベリー"], color: "#9b59b6" },
         { keywords: ["イエロー", "シャンパン", "ゴールデン", "ミモザ"], color: "#f1c40f" },
     ];
-
     for (const entry of colorMap) {
-        if (entry.keywords.some(k => name.includes(k))) {
-            return entry.color;
-        }
+        if (entry.keywords.some(k => name.includes(k))) return entry.color;
     }
     return "#6c63ff";
 }
 
 function parseRecipe(recipe) {
     if (!recipe) return { ingredients: [], ratios: [], optional: "" };
-
     const parts = recipe.split("|");
     const mainPart = parts[0].trim();
     const optional = parts[1] ? parts[1].trim() : "";
-
     const eqSplit = mainPart.split("=");
     const ingredients = eqSplit[0].split(":").map(s => s.trim());
     const ratios = eqSplit[1] ? eqSplit[1].split(":").map(s => s.trim()) : [];
-
     return { ingredients, ratios, optional };
 }
 
@@ -84,7 +73,6 @@ function isLightColor(hex) {
     return luminance > 0.6;
 }
 
-// 検索処理
 async function search() {
     const month = document.getElementById("month").value;
     const day = document.getElementById("day").value;
@@ -110,14 +98,17 @@ async function search() {
             return;
         }
 
-        // 誕生石セクション
-        let html = `<p class="result-title">${data.month}月${data.day}日の誕生石</p>`;
+        let html = `<p class="result-date">── ${data.month}月${data.day}日 ──</p>`;
+        html += `<div class="result-layout">`;
+
+        // 左列：誕生石
+        html += `<div class="col-left">`;
+        html += `<p class="result-title">誕生石</p>`;
         data.birthstones.forEach((stone, i) => {
             const color = getStoneColor(stone.stone_name);
-            const stoneShadow = isLightColor(color) 
-            ? "0 0 3px #000, 0 0 3px #000" 
-            : "0 0 3px #fff, 0 0 3px #fff";
-
+            const stoneShadow = isLightColor(color)
+                ? "0 0 3px #000, 0 0 3px #000"
+                : "0 0 3px #fff, 0 0 3px #fff";
             html += `
                 <div class="card" id="card-stone-${i}" style="border-left-color: ${color}">
                     <div class="stone-name" style="color: ${color}; text-shadow: ${stoneShadow}">${stone.stone_name}</div>
@@ -125,13 +116,20 @@ async function search() {
                 </div>
             `;
         });
+        html += `</div>`;
 
-        // 誕生酒セクション
+        // 右列：誕生酒 + 誕生色
+        html += `<div class="col-right">`;
+
+        // 誕生酒
         if (data.birthdrinks && data.birthdrinks.length > 0) {
-            html += `<p class="result-title">${data.month}月${data.day}日の誕生酒</p>`;
+            html += `<p class="result-title">誕生酒</p>`;
             data.birthdrinks.forEach((drink, i) => {
                 const color = getDrinkColor(drink.drink_name);
                 const recipe = parseRecipe(drink.recipe);
+                const drinkShadow = isLightColor(color)
+                    ? "0 0 3px #000, 0 0 3px #000"
+                    : "0 0 3px #fff, 0 0 3px #fff";
 
                 const ingredientRows = recipe.ingredients.map((ing, idx) => {
                     const c = INGREDIENT_COLORS[idx % INGREDIENT_COLORS.length];
@@ -143,13 +141,9 @@ async function search() {
                     return `<span style="color: ${c}">${r}</span>`;
                 }).join(' : ');
 
-                const drinkShadow = isLightColor(color) 
-                ? "0 0 3px #000, 0 0 3px #000" 
-                : "0 0 3px #fff, 0 0 3px #fff";
-
                 html += `
                     <div class="card" id="card-drink-${i}" style="border-left-color: ${color}">
-                        <div class="stone-name" style="color: ${color};text-shadow: ${drinkShadow}">🍹 ${drink.drink_name}</div>
+                        <div class="stone-name" style="color: ${color}; text-shadow: ${drinkShadow}">🍹 ${drink.drink_name}</div>
                         <div class="meaning">${drink.word || ""}</div>
                         <ul class="recipe-list">${ingredientRows}</ul>
                         ${ratioNums ? `<div class="recipe-ratio">比率 ${ratioNums}</div>` : ""}
@@ -159,30 +153,33 @@ async function search() {
             });
         }
 
-        // 誕生色セクション
+        // 誕生色
         if (data.birthcolors && data.birthcolors.length > 0) {
-            html += `<p class="result-title">${data.month}月${data.day}日の誕生色</p>`;
+            html += `<p class="result-title">誕生色</p>`;
             data.birthcolors.forEach((color, i) => {
                 const textShadow = isLightColor(color.color_hex)
                     ? "0 0 3px #000, 0 0 3px #000"
                     : "0 0 3px #fff, 0 0 3px #fff";
                 html += `
-                    <div class="card" id="card-color-${i}" style="border-left-color: ${color.color_hex}">
-                        <div class="color-swatch-row">
-                            <div class="color-swatch" style="background-color: ${color.color_hex}"></div>
-                            <div class="stone-name" style="color: ${color.color_hex}; text-shadow: ${textShadow}">${color.color_name}</div>
+                        <div class="card" id="card-color-${i}" style="border-left-color: ${color.color_hex}">
+                            <div class="color-swatch-row">
+                                <div class="color-swatch" style="background-color: ${color.color_hex}"></div>
+                                <div class="stone-name" style="color: ${color.color_hex}; text-shadow: ${textShadow}">${color.color_name}</div>
+                            </div>
+                            <div class="color-hex">${color.color_hex}</div>
+                            <div class="meaning">${color.meaning || ""}</div>
                         </div>
-                        <div class="color-hex">${color.color_hex}</div>
-                        <div class="meaning">${color.meaning || ""}</div>
-                    </div>
                 `;
             });
         }
 
+        html += `</div>`; // col-right
+        html += `</div>`; // result-layout
+
         result.innerHTML = html;
 
         // カードを1枚ずつフェードイン
-        const allCards = document.querySelectorAll(".card");
+        const allCards = document.querySelectorAll(".card, .color-hero");
         allCards.forEach((card, i) => {
             setTimeout(() => card.classList.add("visible"), i * 150);
         });

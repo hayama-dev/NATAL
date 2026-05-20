@@ -98,7 +98,6 @@ button:active {
 
 #result {
     width: 100%;
-    max-width: 600px;
     position: relative;
     z-index: 1;
 }
@@ -262,3 +261,23 @@ button:active {
     color: #ff6b6b;
     margin-top: 20px;
 }
+
+/* スマホは1カラムのまま */
+.result-layout {
+    display: block;
+}
+
+/* PC用2カラムレイアウト */
+@media (min-width: 768px) {
+    #result {
+        max-width: 1000px;
+    }
+
+    .result-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        align-items: start;
+    }
+}
+
