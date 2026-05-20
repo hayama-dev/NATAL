@@ -99,6 +99,8 @@ button:active {
 #result {
     width: 100%;
     max-width: 600px;
+    position: relative;
+    z-index: 1;
 }
 
 .result-title {
@@ -118,8 +120,9 @@ button:active {
 }
 
 .card {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(15, 10, 40, 0.75);
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
     border-left: 4px solid #6c63ff;
     border-radius: 12px;
     padding: 20px;
