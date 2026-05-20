@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NATAL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>誕生日入力</h1>
-    <p class="subtitle"> あなたの誕生日を入力してください。</p>
+    <p class="subtitle"> 誕生日を入力してください。</p>
     <div class="form-area">
         <input type="number" id="month" placeholder="月" min="1" max="12">
     <span class="sep">月</span>
@@ -20,6 +21,8 @@
     <div class="loader" id="loader"></div>
     <div id="result"></div>
 
+    <canvas id="stars"></canvas>
+    <script src="js/star.js"></script>
     <script src="js/main.js"></script>
     
 </body>

@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(135deg, #2a1055, #4a2080); /* JSで上書きされる */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,9 +16,10 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 8px;
     letter-spacing: 2px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .subtitle {
@@ -107,6 +108,15 @@ button:active {
     color: #ddd;
 }
 
+.result-date {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: white;
+}
+
 .card {
     background: rgba(255,255,255,0.05);
     border: 1px solid rgba(255,255,255,0.1);
@@ -139,7 +149,7 @@ button:active {
 /* 誕生酒のレシピ表示 */
 .card .recipe-ratio {
     font-size: 0.9rem;
-    color: #ccc; 
+    color: #ccc;
     margin-top: 10px;
     letter-spacing: 0.5px;
     font-family: 'Courier New', monospace;
@@ -157,7 +167,7 @@ button:active {
     margin-top: 12px;
     padding: 0;
 }
- 
+
 .card .recipe-item {
     display: flex;
     justify-content: space-between;
@@ -165,12 +175,12 @@ button:active {
     padding: 4px 0;
     border-bottom: 1px solid rgba(255,255,255,0.05);
 }
- 
+
 .card .recipe-ingredient {
     font-size: 0.9rem;
     font-weight: 500;
 }
- 
+
 .card .recipe-ratio-num {
     font-size: 0.9rem;
     font-weight: bold;
@@ -178,6 +188,7 @@ button:active {
     min-width: 24px;
     text-align: right;
 }
+
 .color-swatch-row {
     display: flex;
     align-items: center;
@@ -193,7 +204,6 @@ button:active {
     border: 1px solid rgba(255,255,255,0.2);
 }
 
-/* カラーコード表示 */
 .card .color-hex {
     font-size: 0.82rem;
     color: #888;
@@ -206,6 +216,41 @@ button:active {
     color: #777;
     margin-top: 12px;
     display: none;
+}
+
+/* 誕生色ヒーロー */
+.color-hero {
+    border-radius: 16px;
+    padding: 48px 24px;
+    margin-bottom: 16px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.color-hero.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.color-hero-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.color-hero-hex {
+    font-size: 0.9rem;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 16px;
+}
+
+.color-hero-meaning {
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 .error {
