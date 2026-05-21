@@ -206,6 +206,13 @@ button:active {
     border: 1px solid rgba(255,255,255,0.2);
 }
 
+.color-kana {
+    font-size: 0.8rem;
+    font-weight: normal;
+    opacity: 0.8;
+    margin-left: 4px;
+}
+
 .card .color-hex {
     font-size: 0.82rem;
     color: #888;

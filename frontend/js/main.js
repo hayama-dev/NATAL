@@ -160,11 +160,17 @@ async function search() {
                 const textShadow = isLightColor(color.color_hex)
                     ? "0 0 3px #000, 0 0 3px #000"
                     : "0 0 3px #fff, 0 0 3px #fff";
+
+                const hasKanji = /[\u4e00-\u9faf]/.test(color.color_name);
+                const kanaHtml = hasKanji && color.color_name_kana
+                        ? `<span class="color-kana">（${color.color_name_kana}）</span>` 
+                        : "";
+
                 html += `
                         <div class="card" id="card-color-${i}" style="border-left-color: ${color.color_hex}">
-                            <div class="color-swatch-row">
-                                <div class="color-swatch" style="background-color: ${color.color_hex}"></div>
-                                <div class="stone-name" style="color: ${color.color_hex}; text-shadow: ${textShadow}">${color.color_name}</div>
+                            <div class="stone-name" style="color: ${color.color_hex}; text-shadow: ${textShadow}">
+                                ${color.color_name}
+                                ${kanaHtml}
                             </div>
                             <div class="color-hex">${color.color_hex}</div>
                             <div class="meaning">${color.meaning || ""}</div>
