@@ -209,7 +209,8 @@ button:active {
 .color-kana {
     font-size: 0.8rem;
     font-weight: normal;
-    opacity: 0.8;
+    color: rgba(255,255,255,0.7);
+    text-shadow: 0 0 3px #000, 0 0 3px #000;
     margin-left: 4px;
 }
 
