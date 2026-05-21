@@ -40,11 +40,12 @@ def birthday(month: int, day: int):
 
     # group_idでグループ化して統合
     groups = {}
-    for stone in stone_res.data:
+    for idx, stone in enumerate(stone_res.data):
         group_id = stone.get("group_id")
-        if group_id not in groups:
-            groups[group_id] = []
-        groups[group_id].append(stone)
+        key = group_id if group_id is not None else f"no_group_{idx}"
+        if key not in groups:
+            groups[key] = []
+        groups[key].append(stone)
     
     # 各グループから最も詳細な情報を選ぶ
     birthstones = []
