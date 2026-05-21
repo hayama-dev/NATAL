@@ -167,14 +167,16 @@ async function search() {
                         : "";
 
                 html += `
-                        <div class="card" id="card-color-${i}" style="border-left-color: ${color.color_hex}">
+                    <div class="card" id="card-color-${i}" style="border-left-color: ${color.color_hex}">
+                        <div class="color-swatch-row">
+                            <div class="color-swatch" style="background-color: ${color.color_hex}"></div>
                             <div class="stone-name" style="color: ${color.color_hex}; text-shadow: ${textShadow}">
-                                ${color.color_name}
-                                ${kanaHtml}
+                                ${color.color_name}${kanaHtml}
                             </div>
-                            <div class="color-hex">${color.color_hex}</div>
-                            <div class="meaning">${color.meaning || ""}</div>
                         </div>
+                        <div class="color-hex">${color.color_hex}</div>
+                        <div class="meaning">${color.meaning || ""}</div>
+                    </div>
                 `;
             });
         }
