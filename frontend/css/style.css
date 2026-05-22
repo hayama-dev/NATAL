@@ -104,9 +104,10 @@ button:active {
 
 .result-title {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     margin-bottom: 20px;
     color: #ddd;
+    font-family: 'Shippori Mincho', serif;
 }
 
 .result-date {
@@ -136,10 +137,13 @@ button:active {
     transform: translateY(0);
 }
 
-.card .stone-name {
-    font-size: 1.2rem;
+.card .stone-name,
+.card .drink-name,
+.card .color-name {
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 8px;
+    font-family: 'Shippori Mincho', serif;
 }
 
 .card .meaning {

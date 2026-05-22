@@ -70,7 +70,7 @@ function isLightColor(hex) {
     const g = parseInt(hex.slice(3, 5), 16);
     const b = parseInt(hex.slice(5, 7), 16);
     const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
-    return luminance > 0.6;
+    return luminance > 0.4;
 }
 
 async function search() {
@@ -143,7 +143,7 @@ async function search() {
 
                 html += `
                     <div class="card" id="card-drink-${i}" style="border-left-color: ${color}">
-                        <div class="stone-name" style="color: ${color}; text-shadow: ${drinkShadow}">🍹 ${drink.drink_name}</div>
+                        <div class="drink-name" style="color: ${color}; text-shadow: ${drinkShadow}">🍹 ${drink.drink_name}</div>
                         <div class="meaning">${drink.word || ""}</div>
                         <ul class="recipe-list">${ingredientRows}</ul>
                         ${ratioNums ? `<div class="recipe-ratio">比率 ${ratioNums}</div>` : ""}
@@ -170,7 +170,7 @@ async function search() {
                     <div class="card" id="card-color-${i}" style="border-left-color: ${color.color_hex}">
                         <div class="color-swatch-row">
                             <div class="color-swatch" style="background-color: ${color.color_hex}"></div>
-                            <div class="stone-name" style="color: ${color.color_hex}; text-shadow: ${textShadow}">
+                            <div class="color-name" style="color: ${color.color_hex}; text-shadow: ${textShadow}">
                                 ${color.color_name}${kanaHtml}
                             </div>
                         </div>
