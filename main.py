@@ -1,6 +1,9 @@
 import os
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 from dotenv import load_dotenv
 from db.supabase import supabase
 
@@ -12,6 +15,10 @@ if ENV == "development":
     origins.append("http://127.0.0.1:5500")
 
 app = FastAPI()
+
+limiter = Limiter(key_func=get_remote_address)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 
 app.add_middleware(
@@ -26,7 +33,8 @@ def root():
     return {"message": "動いてる！"}
 
 @app.get("/birthday")
-def birthday(month: int, day: int):
+@limiter.limit("30/minute")
+def birthday(request: Request, month: int, day: int):
     # datesテーブルからdate_idを取得
     date_res = supabase.table("dates").select("id").eq("month", month).eq("day", day).execute()
     

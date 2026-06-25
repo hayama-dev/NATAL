@@ -1,5 +1,5 @@
 // 環境によってAPIのURLを切り替え
-const API_BASE = window.location.hostname === "127.0.0.1"
+const API_BASE = window.location.hostname === "127.0.0.1"|| window.location.protocol === "file:"
     ? "http://localhost:8000"
     : "https://natal-back-5mdq.onrender.com";
 
