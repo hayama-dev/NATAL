@@ -93,15 +93,21 @@ async function search() {
 
         loader.style.display = "none";
 
-        if (data.error) {
-            result.innerHTML = `<p class="error">${data.error}</p>`;
+        if (!res.ok) {
+            if ((res.status === 400)||(res.status === 422)) {
+                result.innerHTML = `<p class="error">正しい月・日を入力してください</p>`;
+            } else if (res.status === 429) {
+                result.innerHTML = `<p class="error">しばらく時間をおいてから再試行してください</p>`;
+            } else {
+                result.innerHTML = `<p class="error">エラーが発生しました</p>`;
+            }
             return;
         }
 
         let html = `<p class="result-date">── ${data.month}月${data.day}日 ──</p>`;
         html += `<div class="result-layout">`;
 
-        // 左列：誕生石
+        // 誕生石
         html += `<div class="col-left">`;
         html += `<p class="result-title">誕生石</p>`;
         data.birthstones.forEach((stone, i) => {
@@ -118,10 +124,8 @@ async function search() {
         });
         html += `</div>`;
 
-        // 右列：誕生酒 + 誕生色
-        html += `<div class="col-right">`;
-
         // 誕生酒
+        html += `<div class="col-right">`;
         if (data.birthdrinks && data.birthdrinks.length > 0) {
             html += `<p class="result-title">誕生酒</p>`;
             data.birthdrinks.forEach((drink, i) => {
@@ -186,7 +190,6 @@ async function search() {
 
         result.innerHTML = html;
 
-        // カードを1枚ずつフェードイン
         const allCards = document.querySelectorAll(".card, .color-hero");
         allCards.forEach((card, i) => {
             setTimeout(() => card.classList.add("visible"), i * 150);

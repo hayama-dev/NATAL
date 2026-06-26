@@ -1,5 +1,5 @@
 import os
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
@@ -34,12 +34,21 @@ def root():
 
 @app.get("/birthday")
 @limiter.limit("30/minute")
-def birthday(request: Request, month: int, day: int):
-    # datesテーブルからdate_idを取得
+def birthday(
+    request: Request,
+    month: int=Query(..., ge=1, le=12),
+    day: int=Query(..., ge=1, le=31)
+):
+    
+    import calendar
+    max_day = calendar.monthrange(2000, month)[1]
+    if day > max_day:
+        raise HTTPException(status_code=400, detail="無効な日付です")
+    
     date_res = supabase.table("dates").select("id").eq("month", month).eq("day", day).execute()
     
     if not date_res.data:
-        return {"error": "日付が見つかりません"}
+        raise HTTPException(status_code=404, detail="日付が見つかりません")
     
     date_id = date_res.data[0]["id"]
 
