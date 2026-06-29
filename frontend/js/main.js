@@ -178,7 +178,7 @@ async function search() {
                                 ${color.color_name}${kanaHtml}
                             </div>
                         </div>
-                        <div class="color-hex">${color.color_hex}</div>
+                        <div class="color-hex">カラーコード${color.color_hex}</div>
                         <div class="meaning">${color.meaning || ""}</div>
                     </div>
                 `;
