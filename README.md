@@ -47,6 +47,12 @@ birthcolors (id, date_id, color_name, color_hex, meaning, source_note)
 ```
 
 ## ER図
+> 月日を管理するマスタテーブル（dates）を基点として、誕生石・誕生色・誕生酒を管理しています。
+
+- 誕生石は1日に複数登録できるよう1対多で設計しています
+- 誕生色・誕生酒は1日に1件のみ登録する想定です
+- 月日を基準に各データを関連付けています
+
 ```mermaid
 erDiagram
     dates {
