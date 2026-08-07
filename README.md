@@ -7,6 +7,21 @@
 
 ---
 
+## 画面遷移図
+
+![画面遷移図](screen_transition.png)
+
+---
+
+## 機能一覧
+
+- 月・日を入力して検索
+- 誕生石の表示（石言葉付き）
+- 誕生酒の表示（酒言葉・材料比率・レシピ付き）
+- 誕生色の表示（カラーコード・色言葉付き）
+
+---
+
 ## 使用技術
 
 | 役割 | 技術 |
@@ -18,15 +33,6 @@
 | フロントエンドホスティング | Render |
 | バージョン管理 | GitHub |
 | スクレイピング | Python / Selenium / BeautifulSoup |
-
----
-
-## 機能一覧
-
-- 月・日を入力して検索
-- 誕生石の表示（石言葉付き）
-- 誕生酒の表示（酒言葉・材料比率・レシピ付き）
-- 誕生色の表示（カラーコード・色言葉付き）
 
 ---
 
@@ -45,6 +51,7 @@ birthdrinks (id, date_id, drink_name, word, recipe, source_note)
 -- 誕生色（366件）
 birthcolors (id, date_id, color_name, color_hex, meaning, source_note)
 ```
+---
 
 ## ER図
 > 月日を管理するマスタテーブル（dates）を基点として、誕生石・誕生色・誕生酒を管理しています。
@@ -95,11 +102,6 @@ erDiagram
     dates ||--|| birthcolors : "has"
     
 ```
-
-## 画面遷移図
-
-![画面遷移図](screen_transition.png)
-
 ---
 
 ## ローカル起動方法
