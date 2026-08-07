@@ -87,7 +87,7 @@ erDiagram
     dates ||--o{ birthstones : "has"
     dates ||--|| birthdrinks : "has"
     dates ||--|| birthcolors : "has"
-    }
+    
 ```
 ---
 
