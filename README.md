@@ -46,6 +46,48 @@ birthdrinks (id, date_id, drink_name, word, recipe, source_note)
 birthcolors (id, date_id, color_name, color_hex, meaning, source_note)
 ```
 
+## ER図
+```mermaid
+erDiagram
+    dates {
+        serial id PK
+        int month
+        int day
+    }
+
+    birthstones {
+        serial id PK
+        int date_id FK
+        text stone_name
+        text color
+        text meaning
+        text source_note
+        int group_id
+    }
+
+    birthdrinks {
+        serial id PK
+        int date_id FK
+        text drink_name
+        text word
+        text recipe
+        text source_note
+    }
+
+    birthcolors {
+        serial id PK
+        int date_id FK
+        text color_name
+        text color_name_kana
+        text color_hex
+        text meaning
+        text source_note
+    }
+
+    dates ||--o{ birthstones : "1対多"
+    dates ||--|| birthdrinks : "1対1"
+    dates ||--|| birthcolors : "1対1"
+```
 ---
 
 ## ローカル起動方法
