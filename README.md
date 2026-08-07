@@ -95,6 +95,11 @@ erDiagram
     dates ||--|| birthcolors : "has"
     
 ```
+
+## 画面遷移図
+
+![画面遷移図](screen_transition.png)
+
 ---
 
 ## ローカル起動方法
